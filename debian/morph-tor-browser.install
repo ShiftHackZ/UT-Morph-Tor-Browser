@@ -1,0 +1,12 @@
+usr/bin/morph-tor-browser
+usr/share/morph-tor-browser/*.qml
+usr/share/morph-tor-browser/qmldir
+usr/share/morph-tor-browser/*.js
+usr/share/morph-tor-browser/*.svg
+usr/share/morph-tor-browser/actions/*.qml
+usr/share/morph-tor-browser/webbrowser/
+usr/share/applications/morph-tor-browser.desktop
+usr/share/locale/*/LC_MESSAGES/morph-tor-browser.mo
+usr/share/lomiri-url-dispatcher/
+usr/share/content-hub/peers/morph-tor-browser
+debian/usr.bin.morph-tor-browser etc/apparmor.d

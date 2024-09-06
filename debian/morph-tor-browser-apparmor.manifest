@@ -1,0 +1,43 @@
+{
+  "profiles": {
+    "morph-tor-browser": {
+      "binary": "/usr/bin/morph-tor-browser",
+      "profile_name": "morph-tor-browser",
+      "policy_vendor": "ubuntu",
+      "policy_version": 16.04,
+      "policy_groups": [
+        "accounts",
+        "audio",
+        "camera",
+        "content_exchange",
+        "content_exchange_source",
+        "keep-display-on",
+        "location",
+        "microphone",
+        "networking",
+        "push-notification-client",
+        "video",
+        "webview"
+      ],
+      "abstractions": [
+        "ibus",
+        "nvidia",
+        "user-tmp"
+      ],
+      "template_variables": {
+        "APP_ID_DBUS": "morph_2dbrowser",
+        "APP_PKGNAME_DBUS": "morph_2dbrowser",
+        "APP_PKGNAME": "morph-tor-browser",
+        "CLICK_DIR": "/usr/share/morph-tor-browser"
+      },
+      "read_path": [
+        "/usr/share/applications/",
+        "/custom/vendor/here/location-provider/consent/*.html",
+        "@{HOME}/.local/share/applications/",
+        "/sys/devices/**/input*/"
+      ],
+      "write_path": [
+      ]
+    }
+  }
+}

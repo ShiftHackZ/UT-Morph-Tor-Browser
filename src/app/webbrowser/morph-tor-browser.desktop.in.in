@@ -1,0 +1,27 @@
+[Desktop Entry]
+Version=1.0
+Name=Morph Tor Browser
+GenericName=Morph Tor Web Browser
+Comment=Browse the World Wide Web using QtWebEngine
+Keywords=Internet;WWW;Browser;Web;Explorer
+Type=Application
+Icon=@CMAKE_INSTALL_FULL_DATADIR@/morph-tor-browser/morph-tor-browser.svg
+Exec=morph-tor-browser %u
+Terminal=false
+Categories=Network;WebBrowser;
+MimeType=text/html;text/xml;application/xhtml+xml;x-scheme-handler/http;x-scheme-handler/https;
+X-Lomiri-Touch=true
+X-Lomiri-Gettext-Domain=morph-tor-browser
+X-Lomiri-Single-Instance=true
+X-Lomiri-Default-Department-ID=web-browsers
+X-Lomiri-Splash-Color=#DBDCDC
+X-Lomiri-Splash-Image=@CMAKE_INSTALL_FULL_DATADIR@/morph-tor-browser/morph-tor-browser-splash.svg
+Actions=new-window;Incognito;
+
+[Desktop Action new-window]
+Name=New Window
+Exec=morph-tor-browser --new-window
+
+[Desktop Action Incognito]
+Name=New Private Window
+Exec=morph-tor-browser --incognito

@@ -1,0 +1,17 @@
+{
+    "name": "com.shifthacks.morph.tor.browser",
+    "description": "Morph Tor Browser using QtWebEngine",
+    "framework": "ubuntu-sdk-16.04",
+    "architecture": "@CLICK_ARCH@",
+    "title": "Morph Tor Browser",
+    "icon": "@CMAKE_INSTALL_DATADIR@/morph-tor-browser/morph-tor-browser.svg",
+    "hooks": {
+        "morph-tor-browser": {
+            "apparmor": "morph-tor-browser.apparmor",
+            "desktop": "@CMAKE_INSTALL_DATADIR@/applications/morph-tor-browser.desktop",
+            "urls": "@CMAKE_INSTALL_DATADIR@/url-dispatcher/urls/morph-tor-browser.url-dispatcher"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "ShiftHackZ"
+}

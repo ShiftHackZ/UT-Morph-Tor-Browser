@@ -1,0 +1,183 @@
+Source: morph-tor-browser
+Section: x11
+Priority: optional
+Maintainer: UBports developers
+Build-Depends: apparmor:native,
+               apparmor-easyprof,
+               cmake,
+               debhelper-compat (= 12),
+               dh-apparmor,
+               dh-migrations | hello,
+               libapparmor-dev,
+               libqt5sql5-sqlite,
+               apparmor-easyprof-ubuntu,
+               lsb-release,
+               pkg-config,
+               python3-all:any,
+               python3-flake8 (>= 2.2.2-1ubuntu4) | python3-flake8:native,
+               qml-module-qt-labs-folderlistmodel,
+               qml-module-qt-labs-settings,
+               qml-module-qtquick2 (>= 5.4),
+               qml-module-qtquick-controls2,
+               qml-module-qtquick-layouts,
+               qml-module-qtsysteminfo,
+               qml-module-qttest,
+               qml-module-qtwebengine,
+               qml-module-lomiri-components,
+               qml-module-lomiri-test,
+               qml-module-lomiri-components-extras,
+               qtbase5-dev (>= 5.4),
+               qtbase5-dev-tools,
+               qtdeclarative5-dev,
+               qttools5-dev-tools,
+               qtwebengine5-dev,
+               xauth,
+               xvfb,
+Standards-Version: 3.9.7
+Homepage: https://gitlab.com/ubports/development/core/morph-tor-browser
+Vcs-Browser: https://gitlab.com/ubports/development/core/morph-tor-browser
+Vcs-Git: https://gitlab.com/ubports/development/core/morph-tor-browser.git
+XS-Testsuite: autopkgtest
+
+Package: morph-tor-browser
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+         fonts-liberation,
+         libqt5sql5-sqlite,
+         libqt5webengine5,
+         qml-module-qt-labs-folderlistmodel,
+         qml-module-qt-labs-settings,
+         qml-module-qtquick2 (>= 5.5),
+         qml-module-qtquick-layouts,
+         qml-module-qtquick-window2 (>= 5.3),
+         qml-module-qtsysteminfo,
+         qml-module-morph-web (= ${binary:Version}),
+         qml-module-lomiri-content,
+         qml-module-lomiri-components-extras,
+         qml-module-lomiri-components,
+         qml-module-lomiri-action,
+Replaces: morph-tor-browser-assets,
+          qtdeclarative5-ubuntu-ui-extras-browser-plugin (<< 0.22),
+Conflicts: morph-tor-browser-assets, webbrowser-app
+Provides: morph-tor-browser-assets, webbrowser-app
+Breaks: qtdeclarative5-ubuntu-ui-extras-browser-plugin (<< 0.22)
+Description: Web Browser for Ubuntu Touch
+ Lightweight web browser tailored for Ubuntu Touch, based on the Qt WebEngine
+ and using the Lomiri UI components.
+
+Package: morph-webapp-container
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+         fonts-liberation,
+         libqt5sql5-sqlite,
+         libqt5webengine5,
+         qml-module-qtquick2 (>= 5.5),
+         qml-module-qtquick-window2 (>= 5.3),
+         qml-module-sso-onlineaccounts,
+         qml-module-morph-web (= ${binary:Version}),
+         qml-module-lomiri-content,
+         qml-module-lomiri-components,
+         qml-module-lomiri-action,
+         qml-module-lomiri-onlineaccounts-client,
+         morph-tor-browser (= ${binary:Version}),
+Conflicts: ubuntu-html5-container, webapp-container
+Replaces: ubuntu-html5-container, webapp-container
+Description: Morph web applications container
+ A lightweight webapp container tailored for Ubuntu Touch, based on the Qt WebEngine
+ and using the Lomiri UI components.
+
+Package: qml-module-ubuntu-web-compat
+Architecture: any
+Multi-Arch: same
+Section: oldlibs
+Depends: qml-module-morph-web, ${misc:Depends}
+Replaces: qml-module-ubuntu-ui-extras-browser,
+          qtdeclarative5-ubuntu-ui-extras-browser-plugin,
+          qml-module-ubuntu-web,
+          qtdeclarative5-ubuntu-web-plugin
+Conflicts: qml-module-ubuntu-ui-extras-browser,
+          qtdeclarative5-ubuntu-ui-extras-browser-plugin,
+          qml-module-ubuntu-web,
+          qtdeclarative5-ubuntu-web-plugin
+Description: This provides a compat layer for Ubuntu.Web
+
+Package: qml-module-morph-web
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+         qml-module-qtwebengine,
+         qml-module-qtquick2 (>= 5.4),
+         qml-module-qtquick-window2 (>= 5.3),
+         qml-module-lomiri-components,
+Breaks: qtdeclarative5-ubuntu-web-plugin (<< ${source:Version})
+Replaces: qtdeclarative5-ubuntu-web-plugin (<< ${source:Version})
+Description: Morph web QML module
+ A standalone QML module that contains the WebView component,
+ in the Morph.Web namespace.
+
+Package: qtdeclarative5-ubuntu-web-plugin
+Architecture: any
+Multi-Arch: same
+Section: oldlibs
+Depends: qml-module-morph-web, ${misc:Depends}
+Description: transitional dummy package for the Morph web QML module
+ A standalone QML module that contains the WebView component,
+ in the Morph.Web namespace.
+
+Package: qml-module-morph-web-doc
+Section: doc
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Breaks: qtdeclarative5-ubuntu-web-plugin-doc (<< ${source:Version})
+Replaces: qtdeclarative5-ubuntu-web-plugin-doc (<< ${source:Version})
+Description: Morph web QML module HTML documentation
+ A standalone QML module that contains the WebView component,
+ in the Morph.Web namespace. This package contains the public
+ HTML documentation.
+
+Package: qtdeclarative5-ubuntu-web-plugin-doc
+Section: oldlibs
+Architecture: all
+Multi-Arch: foreign
+Depends: qml-module-morph-web-doc, ${misc:Depends}
+Description: transitional dummy package for the morph web QML module HTML documentation
+ A standalone QML module that contains the WebView component,
+ in the morph.Web namespace. This package contains the public
+ HTML documentation.
+
+# Package: morph-tor-browser-autopilot
+# Architecture: all
+# Multi-Arch: foreign
+# Depends: ${misc:Depends},
+#          autopilot-qt5,
+#          content-hub-testability,
+#          python3-autopilot,
+#          python3-fixtures,
+#          python3-psutil,
+#          ubuntu-ui-toolkit-autopilot,
+#          morph-tor-browser (>= ${binary:Version}),
+# Description: morph web browser autopilot tests
+#  A lightweight web browser tailored for morph, based on the Oxide browser
+#  engine and using the suru UI components. This package contains autopilot
+#  tests for it.
+# 
+# Package: morph-webapp-container-autopilot
+# Architecture: all
+# Multi-Arch: foreign
+# Depends: ${misc:Depends},
+#          autopilot-qt5,
+#          python3-autopilot,
+#          python3-fixtures,
+#          ubuntu-ui-toolkit-autopilot,
+#          morph-webapp-container (>= ${binary:Version}),
+# Description: morph web applications container autopilot tests
+#  A lightweight webapp container tailored for morph, based on the Oxide browser
+#  engine and using the Suru UI components. This package contains autopilot
+#  tests for it.

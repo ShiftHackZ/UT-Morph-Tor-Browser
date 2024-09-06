@@ -1,0 +1,1491 @@
+# Norwegian Bokmal translation for morph-tor-browser
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the morph-tor-browser package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: morph-tor-browser\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-19 16:45+0100\n"
+"PO-Revision-Date: 2024-01-04 16:35+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/lomiri/"
+"morph-tor-browser/nb_NO/>\n"
+"Language: nb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4-dev\n"
+"X-Launchpad-Export-Date: 2017-04-05 07:15+0000\n"
+
+#: morph-tor-browser.desktop.in:4
+msgid "Morph Browser"
+msgstr "Morph nettleser"
+
+#: morph-tor-browser.desktop.in:5 src/app/webbrowser/morph-tor-browser.qml:110
+#: src/app/webcontainer/webapp-container.qml:78
+msgid "Morph Web Browser"
+msgstr "Morph nettleser"
+
+#: morph-tor-browser.desktop.in:6
+msgid "Browse the World Wide Web using QtWebEngine"
+msgstr "Surf på nettet med QtWebEngine"
+
+#: morph-tor-browser.desktop.in:7
+msgid "Internet;WWW;Browser;Web;Explorer"
+msgstr "Internett;WWW;Nettleser;Web;Utforsker"
+
+#: morph-tor-browser.desktop.in:23
+msgid "New Window"
+msgstr "Nytt vindu"
+
+#: morph-tor-browser.desktop.in:27
+msgid "New Private Window"
+msgstr "Nytt privat vindu"
+
+#: src/app/actions/Back.qml:23
+msgid "Back"
+msgstr "Tilbake"
+
+#. TRANSLATORS: This is a free-form list of keywords associated to the 'Back' action.
+#. Keywords may actually be sentences, and must be separated by semi-colons.
+#: src/app/actions/Back.qml:26
+msgid "Older Page"
+msgstr "Eldre side"
+
+#: src/app/actions/BookmarkLink.qml:22
+msgid "Bookmark link"
+msgstr "Bokmerk lenke"
+
+#: src/app/actions/Bookmark.qml:23
+msgid "Bookmark"
+msgstr "Bokmerke"
+
+#. TRANSLATORS: This is a free-form list of keywords associated to the 'Bookmark' action.
+#. Keywords may actually be sentences, and must be separated by semi-colons.
+#: src/app/actions/Bookmark.qml:26
+msgid "Add This Page to Bookmarks"
+msgstr "Legg til i bokmerker"
+
+#: src/app/actions/ClearHistory.qml:23
+msgid "Clear History"
+msgstr "Tøm historikk"
+
+#. TRANSLATORS: This is a free-form list of keywords associated to the 'Clear History' action.
+#. Keywords may actually be sentences, and must be separated by semi-colons.
+#: src/app/actions/ClearHistory.qml:26
+msgid "Clear Navigation History"
+msgstr "Tøm navigeringshistorikk"
+
+#: src/app/actions/CopyImage.qml:22
+msgid "Copy image"
+msgstr "Kopier bilde"
+
+#: src/app/actions/CopyLink.qml:22
+msgid "Copy link"
+msgstr "Kopier lenke"
+
+#: src/app/actions/Copy.qml:22 src/app/webbrowser/AddressBar.qml:418
+msgid "Copy"
+msgstr "Kopier"
+
+#: src/app/actions/Cut.qml:22 src/app/webbrowser/AddressBar.qml:407
+msgid "Cut"
+msgstr "Klipp ut"
+
+#: src/app/actions/Erase.qml:22
+msgid "Erase"
+msgstr "Slett"
+
+#: src/app/actions/FindInPage.qml:23 src/app/webbrowser/Browser.qml:831
+msgid "Find in page"
+msgstr "Søk på siden"
+
+#. TRANSLATORS: This is a free-form list of keywords associated to the 'Find in Page' action.
+#. Keywords may actually be sentences, and must be separated by semi-colons.
+#: src/app/actions/FindInPage.qml:26
+msgid "Search in Page"
+msgstr "Søk på siden"
+
+#: src/app/actions/Forward.qml:23
+msgid "Forward"
+msgstr "Fremover"
+
+#. TRANSLATORS: This is a free-form list of keywords associated to the 'Forward' action.
+#. Keywords may actually be sentences, and must be separated by semi-colons.
+#: src/app/actions/Forward.qml:26
+msgid "Newer Page"
+msgstr "Nyere side"
+
+#: src/app/actions/GoTo.qml:23
+msgid "Goto"
+msgstr "Gå til"
+
+#. TRANSLATORS: This is a free-form list of keywords associated to the 'Goto' action.
+#. Keywords may actually be sentences, and must be separated by semi-colons.
+#: src/app/actions/GoTo.qml:26
+msgid "Address;URL;www"
+msgstr "Adresse;Nettadresse;www"
+
+#: src/app/actions/NewTab.qml:23 src/app/webbrowser/Browser.qml:691
+#: src/app/webbrowser/TabsBar.qml:88
+msgid "New Tab"
+msgstr "Ny fane"
+
+#. TRANSLATORS: This is a free-form list of keywords associated to the 'New Tab' action.
+#. Keywords may actually be sentences, and must be separated by semi-colons.
+#: src/app/actions/NewTab.qml:26
+msgid "Open a New Tab"
+msgstr "Åpne en ny fane"
+
+#: src/app/actions/OpenImageInNewTab.qml:22
+msgid "Open image in new tab"
+msgstr "Åpne bilde i ny fane"
+
+#: src/app/actions/OpenLinkInBrowser.qml:22
+msgid "Open link in default browser"
+msgstr "Åpne lenke i forvalgt nettleser"
+
+#: src/app/actions/OpenLinkInNewBackgroundTab.qml:22
+msgid "Open link in new background tab"
+msgstr "Åpne lenke i ny bakgrunnsfane"
+
+#: src/app/actions/OpenLinkInNewPrivateWindow.qml:22
+msgid "Open link in new private window"
+msgstr "Åpne lenke i privat vindu"
+
+#: src/app/actions/OpenLinkInNewTab.qml:22
+msgid "Open link in new tab"
+msgstr "Åpne lenke i ny fane"
+
+#: src/app/actions/OpenLinkInNewWindow.qml:22
+msgid "Open link in new window"
+msgstr "Åpne lenke i nytt vindu"
+
+#: src/app/actions/OpenVideoInNewTab.qml:22
+msgid "Open video in new tab"
+msgstr "Åpne video i ny fane"
+
+#: src/app/actions/Paste.qml:22 src/app/webbrowser/AddressBar.qml:429
+msgid "Paste"
+msgstr "Lim inn"
+
+#: src/app/actions/Redo.qml:22
+msgid "Redo"
+msgstr "Gjør om"
+
+#: src/app/actions/Reload.qml:23 src/app/webbrowser/SadTab.qml:76
+#: src/app/webbrowser/TabsBar.qml:93 src/app/webcontainer/SadPage.qml:51
+msgid "Reload"
+msgstr "Last på nytt"
+
+#. TRANSLATORS: This is a free-form list of keywords associated to the 'Reload' action.
+#. Keywords may actually be sentences, and must be separated by semi-colons.
+#: src/app/actions/Reload.qml:26
+msgid "Leave Page"
+msgstr "Forlat side"
+
+#: src/app/actions/SaveImage.qml:22
+msgid "Save image"
+msgstr "Lagre bilde"
+
+#: src/app/actions/SaveLink.qml:22
+msgid "Save link"
+msgstr "Lagre lenke"
+
+#: src/app/actions/SaveVideo.qml:22
+msgid "Save video"
+msgstr "Lagre video"
+
+#: src/app/actions/SelectAll.qml:22 src/app/CustomUserAgentsPage.qml:47
+#: src/app/DomainPermissionsPage.qml:68 src/app/DomainSettingsPage.qml:66
+#: src/app/DownloadsPage.qml:85
+msgid "Select all"
+msgstr "Velg alle"
+
+#: src/app/actions/Share.qml:22 src/app/webbrowser/Browser.qml:811
+msgid "Share"
+msgstr "Del"
+
+#: src/app/actions/Undo.qml:22
+msgid "Undo"
+msgstr "Angre"
+
+#: src/app/AlertDialog.qml:24
+msgid "JavaScript Alert"
+msgstr "JavaScript-varsel"
+
+#: src/app/AlertDialog.qml:31 src/app/AuthenticationDialog.qml:47
+#: src/app/ColorSelectDialog.qml:73 src/app/ConfirmDialog.qml:33
+#: src/app/EditCustomUserAgentDialog.qml:62
+#: src/app/HttpAuthenticationDialog.qml:70 src/app/PromptDialog.qml:50
+#: src/app/webbrowser/BookmarkOptions.qml:122
+msgid "OK"
+msgstr "OK"
+
+#: src/app/AllowCustomSchemesDialog.qml:24
+msgid "Custom URL schemes"
+msgstr "Tilpassede nettadresseavarter"
+
+#: src/app/AllowCustomSchemesDialog.qml:30
+#, fuzzy, qt-format
+msgid "The '%1' website wants to open this URL outside of the web browser:"
+msgstr "«%1»-nettsiden ønsker å åpne denne nettsiden i systemets nettleser."
+
+#: src/app/AllowCustomSchemesDialog.qml:32
+msgid "Open this URL with a system app if possible?"
+msgstr "Åpne denne nettadressen med et systemprogram hvis mulig?"
+
+#: src/app/AllowCustomSchemesDialog.qml:44
+#: src/app/GeolocationPermissionRequest.qml:44
+msgid "Remember decision"
+msgstr "Husk valg"
+
+#: src/app/AllowCustomSchemesDialog.qml:50
+#: src/app/GeolocationPermissionRequest.qml:51
+msgid "Allow"
+msgstr "Tillat"
+
+#: src/app/AllowCustomSchemesDialog.qml:57
+#: src/app/AllowOrBlockDomainDialog.qml:53 src/app/AuthenticationDialog.qml:53
+#: src/app/CertificateVerificationDialog.qml:46
+#: src/app/ColorSelectDialog.qml:84 src/app/ConfirmDialog.qml:41
+#: src/app/DownloadDelegate.qml:271 src/app/EditCustomUserAgentDialog.qml:69
+#: src/app/HttpAuthenticationDialog.qml:80 src/app/PromptDialog.qml:61
+#: src/app/SavePageDialog.qml:73 src/app/SimpleDownloadDelegate.qml:136
+#: src/app/webbrowser/BookmarkOptions.qml:182
+#: src/app/webbrowser/ContentDownloadDialog.qml:114
+#: src/app/webbrowser/ContextMenuMobile.qml:143
+#: src/app/webbrowser/SettingsPage.qml:458
+#: src/app/webbrowser/SettingsPage.qml:574
+#: src/app/webcontainer/AccountChooserDialog.qml:96
+#: src/app/webcontainer/ContextMenuMobile.qml:143
+#: src/app/webcontainer/WebappSettingsPage.qml:286 src/app/ZoomControls.qml:237
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: src/app/AllowOrBlockDomainDialog.qml:25
+#: src/app/AllowOrBlockDomainDialog.qml:41
+msgid "Block domain"
+msgstr "Blokker domene"
+
+#: src/app/AllowOrBlockDomainDialog.qml:30
+#, qt-format
+msgid ""
+"You're trying to access %1 but it is not on your approved domain whitelist. "
+"Would you like to continue to block the domain, allow browsing to the "
+"domain, or go back?"
+msgstr ""
+"Du prøver å nå \"%1\", men det er ikke i din liste over godkjente domener. "
+"Ønsker du å fortsette å blokkere domenet, tillate surfing til det, eller gå "
+"tilbake?"
+
+#: src/app/AllowOrBlockDomainDialog.qml:31
+#, qt-format
+msgid ""
+"%1 is trying to access %2 but it is not on your approved domain whitelist. "
+"Would you like to continue to block the domain, allow loading data from the "
+"domain, or just ignore this request ?"
+msgstr ""
+"%1 prøver å få tilgang til %2, men er ikke i din liste over godkjente "
+"domener. Ønsker du å fortsette å blokkere domenet, tillate innlasting av "
+"data fra det, eller bare ignorere denne forespørselen?"
+
+#: src/app/AllowOrBlockDomainDialog.qml:47
+msgid "Allow domain"
+msgstr "Tillat domene"
+
+#: src/app/AuthenticationDialog.qml:24 src/app/HttpAuthenticationDialog.qml:25
+msgid "Authentication required."
+msgstr "Du må autentisere deg for å fortsette."
+
+#. TRANSLATORS: %1 refers to the URL of the current website
+#: src/app/AuthenticationDialog.qml:26
+#, qt-format
+msgid "The website %1 requires authentication."
+msgstr "Nettsiden %1 krever at du autentiserer deg."
+
+#: src/app/AuthenticationDialog.qml:34 src/app/HttpAuthenticationDialog.qml:50
+msgid "Username"
+msgstr "Brukernavn"
+
+#: src/app/AuthenticationDialog.qml:41 src/app/HttpAuthenticationDialog.qml:60
+msgid "Password"
+msgstr "Passord"
+
+#: src/app/BeforeUnloadDialog.qml:24
+msgid "Confirm Navigation"
+msgstr "Bekreft navigering"
+
+#: src/app/BeforeUnloadDialog.qml:33
+msgid "Leave"
+msgstr "Gå ut"
+
+#: src/app/BeforeUnloadDialog.qml:41
+msgid "Stay"
+msgstr "Bli"
+
+#: src/app/CertificateVerificationDialog.qml:24
+msgid "This connection is untrusted"
+msgstr "Denne tilkoblingen er ikke sikker"
+
+#. TRANSLATORS: %1 refers to the hostname
+#: src/app/CertificateVerificationDialog.qml:26
+#, qt-format
+msgid ""
+"You are trying to securely reach %1, but the security certificate of this "
+"website is not trusted. Reason: %2"
+msgstr ""
+"Du prøver å lage en sikker tilkobling til %1, men sikkerhetssertifikatet "
+"regnes ikke som sikkert. Årsak: %2"
+
+#: src/app/CertificateVerificationDialog.qml:39
+#: src/app/InvalidCertificateErrorSheet.qml:160
+msgid "Proceed anyway"
+msgstr "Fortsett likevel"
+
+#: src/app/ColorSelectDialog.qml:25
+msgid "Select Color"
+msgstr "Velg farge"
+
+#: src/app/ConfirmDialog.qml:24
+msgid "JavaScript Confirmation"
+msgstr "JavaScript-bekreftelse"
+
+#: src/app/CustomUserAgentsPage.qml:33 src/app/DomainSettingsPage.qml:150
+msgid "Custom User Agents"
+msgstr "Egendefinerte brukeragenter"
+
+#: src/app/CustomUserAgentsPage.qml:63 src/app/DomainPermissionsPage.qml:84
+#: src/app/DomainSettingsPage.qml:82 src/app/DownloadsPage.qml:101
+msgid "Delete"
+msgstr "Slett"
+
+#: src/app/CustomUserAgentsPage.qml:94
+msgid "New User Agent"
+msgstr "Ny brukeragent"
+
+#: src/app/CustomUserAgentsPage.qml:161
+msgid "Edit User Agent"
+msgstr "Rediger brukeragent"
+
+#: src/app/CustomUserAgentsPage.qml:187
+msgid "No custom user agents available"
+msgstr "Ingen tilpassede brukeragenter foreligger"
+
+#: src/app/DomainPermissionsPage.qml:54
+msgid "Domain blacklist/whitelist"
+msgstr "Domenesvarteliste/-hvitliste"
+
+#: src/app/DomainPermissionsPage.qml:113 src/app/DomainSettingsPage.qml:113
+msgid "Add domain"
+msgstr "Legg til domene"
+
+#: src/app/DomainPermissionsPage.qml:114
+msgid ""
+"Enter the name of the domain, e.g. example.com (subdomains will be removed)."
+msgstr ""
+"Skriv inn domenet, f.eks. «eksempel.no» (underdomener vil bli fjernet)."
+
+#: src/app/DomainPermissionsPage.qml:222
+msgid "Not Set"
+msgstr "Ikke satt"
+
+#: src/app/DomainPermissionsPage.qml:232
+msgid "Never allow access"
+msgstr "Aldri tillat tilgang"
+
+#: src/app/DomainPermissionsPage.qml:243
+msgid "Always allow access"
+msgstr "Alltid tillat tilgang"
+
+#: src/app/DomainPermissionsPage.qml:283
+msgid "No sites have been granted special permissions"
+msgstr "Ingen sider har blitt innvilget spesialtilganger"
+
+#: src/app/DomainSettingsPage.qml:52
+msgid "Domain specific settings"
+msgstr "Domenespesifikke innstillinger"
+
+#: src/app/DomainSettingsPage.qml:114
+msgid "Enter the name of the domain, e.g. m.example.com"
+msgstr "Skriv inn navnet på domenet, f.eks. «m.eksempel.com»"
+
+#: src/app/DomainSettingsPage.qml:207
+msgid "allowed to launch other apps"
+msgstr "tilates å starte andre programmer"
+
+#: src/app/DomainSettingsPage.qml:226
+msgid "access your location"
+msgstr "tilgang til din posisjon"
+
+#: src/app/DomainSettingsPage.qml:231
+msgid "Ask each time"
+msgstr "Spør hver gang"
+
+#: src/app/DomainSettingsPage.qml:231
+msgid "Allowed"
+msgstr "Tillatt"
+
+#: src/app/DomainSettingsPage.qml:231
+msgid "Denied"
+msgstr "Nektet"
+
+#: src/app/DomainSettingsPage.qml:245
+msgid "custom user agent"
+msgstr "egendefinert brukeragent"
+
+#: src/app/DomainSettingsPage.qml:320 src/app/DomainSettingsPage.qml:325
+msgid "Zoom: "
+msgstr "Førstørrelse: "
+
+#: src/app/DomainSettingsPage.qml:325
+msgid "not set"
+msgstr "ikke satt"
+
+#: src/app/DomainSettingsPage.qml:361
+msgid "No domain specific settings available"
+msgstr "Ingen domenespesifikke innstillinger tilgjengelig"
+
+#. TRANSLATORS: %1 is the percentage of the download completed so far
+#: src/app/DownloadDelegate.qml:105 src/app/DownloadsDialog.qml:109
+#, qt-format
+msgid "%1%"
+msgstr "%1%"
+
+#: src/app/DownloadDelegate.qml:170
+msgid "Download failed"
+msgstr "Nedlasting mislyktes"
+
+#: src/app/DownloadDelegate.qml:199
+msgid "Unknown"
+msgstr "Ukjent"
+
+#. TRANSLATORS: %1 is the number of bytes i.e. 2bytes, 5KB, 1MB
+#: src/app/DownloadDelegate.qml:207
+#, qt-format
+msgid "%1/s"
+msgstr "%1/s"
+
+#: src/app/DownloadDelegate.qml:251 src/app/SimpleDownloadDelegate.qml:117
+msgid "Delete File"
+msgstr "Slett fil"
+
+#: src/app/DownloadDelegate.qml:261
+msgid "Remove from History"
+msgstr "Fjern fra historikk"
+
+#: src/app/DownloadDelegate.qml:290 src/app/SimpleDownloadDelegate.qml:157
+msgid "Copy Download Link"
+msgstr "Kopier nedlastingslenke"
+
+#: src/app/DownloadsDialog.qml:68
+msgid "Recent Downloads"
+msgstr "Nylige nedlastinger"
+
+#: src/app/DownloadsDialog.qml:83
+msgid "No Recent Downloads"
+msgstr "Ingen nylige nedlastinger"
+
+#: src/app/DownloadsDialog.qml:106
+msgid "Cancelled"
+msgstr "Avbrutt"
+
+#: src/app/DownloadsDialog.qml:109
+msgid "Completed"
+msgstr "Fullført"
+
+#: src/app/DownloadsDialog.qml:169 src/app/webbrowser/SettingsPage.qml:465
+#: src/app/webcontainer/WebappSettingsPage.qml:293
+msgid "Clear"
+msgstr "Tøm"
+
+#: src/app/DownloadsDialog.qml:179
+msgid "View All"
+msgstr "Vis alle"
+
+#: src/app/DownloadsPage.qml:46 src/app/webbrowser/Browser.qml:838
+#: src/app/webcontainer/WebappSettingsPage.qml:137
+msgid "Downloads"
+msgstr "Nedlastinger"
+
+#: src/app/DownloadsPage.qml:60
+msgid "Confirm selection"
+msgstr "Bekreft valg"
+
+#: src/app/DownloadsPage.qml:288
+msgid "No downloads available"
+msgstr "Ingen nedlastinger tilgjengelig"
+
+#: src/app/EditCustomUserAgentDialog.qml:42
+msgid "this user agent name is already taken"
+msgstr "dette brukeragentnavnet er allerede i bruk"
+
+#: src/app/EditCustomUserAgentDialog.qml:48
+msgid "Add the name for the user agent"
+msgstr "Legg til navn på brukeragenten"
+
+#: src/app/EditCustomUserAgentDialog.qml:54
+msgid "enter user agent string..."
+msgstr "skriv inn brukeragentstreng…"
+
+#: src/app/ErrorSheet.qml:42
+msgid "Certificate Error"
+msgstr "Sertifikatsfeil"
+
+#: src/app/ErrorSheet.qml:42
+msgid "Network Error"
+msgstr "Nettverksfeil"
+
+#. TRANSLATORS: %1 refers to the URL of the current page
+#: src/app/ErrorSheet.qml:49
+#, qt-format
+msgid "It appears you are having trouble viewing: %1."
+msgstr "Det ser ut som om du har problemer med å vise %1."
+
+#: src/app/ErrorSheet.qml:56
+#, qt-format
+msgid "Error: %1"
+msgstr "Feil: %1"
+
+#: src/app/ErrorSheet.qml:62 src/app/InvalidCertificateErrorSheet.qml:173
+msgid "Back to safety"
+msgstr "Tilbake til sikkerhet"
+
+#: src/app/ErrorSheet.qml:70
+msgid "Please check your network settings and try refreshing the page."
+msgstr "Kontroller nettverksinnstillinger og last inn siden på nytt."
+
+#: src/app/ErrorSheet.qml:77
+msgid "Refresh page"
+msgstr "Oppdater side"
+
+#: src/app/GeolocationPermissionRequest.qml:29
+msgid "Permission Request"
+msgstr "Spørsmål om tillatelse"
+
+#: src/app/GeolocationPermissionRequest.qml:30
+msgid "This page wants to know your device’s location."
+msgstr "Denne siden spør om hvor enheten din befinner seg."
+
+#: src/app/GeolocationPermissionRequest.qml:57
+msgid "Deny"
+msgstr "Avvis"
+
+#. TRANSLATORS: %1 refers to the URL of the current website and %2 is a string that the website sends with more information about the authentication challenge (technically called "realm")
+#: src/app/HttpAuthenticationDialog.qml:27
+#, qt-format
+msgid "The website at %1 requires authentication. The website says \"%2\""
+msgstr "Nettstedet %1 krever autentisering. Siden sier «%2»"
+
+#: src/app/InvalidCertificateErrorSheet.qml:55
+msgid "This site security certificate is not trusted.\n"
+msgstr "Dette sikkerhetssertifikatet er ikke godkjent av tredjepart.\n"
+
+#: src/app/InvalidCertificateErrorSheet.qml:63
+msgid "Learn more"
+msgstr "Mer informasjon"
+
+#. TRANSLATORS: %1 refers to the SSL certificate's serial number
+#: src/app/InvalidCertificateErrorSheet.qml:87
+#, qt-format
+msgid ""
+"Serial number:\n"
+"%1"
+msgstr ""
+"Serienummer:\n"
+"%1"
+
+#. TRANSLATORS: %1 refers to the SSL certificate's subject display name
+#: src/app/InvalidCertificateErrorSheet.qml:94
+#, qt-format
+msgid ""
+"Subject:\n"
+"%1"
+msgstr ""
+"Emne:\n"
+"%1"
+
+#. TRANSLATORS: %1 refers to the SSL certificate's subject's address
+#: src/app/InvalidCertificateErrorSheet.qml:102
+#, qt-format
+msgid ""
+"Subject address:\n"
+"%1"
+msgstr ""
+"Emneadresse:\n"
+"%1"
+
+#. TRANSLATORS: %1 refers to the SSL certificate's issuer display name
+#: src/app/InvalidCertificateErrorSheet.qml:113
+#, qt-format
+msgid ""
+"Issuer:\n"
+"%1"
+msgstr ""
+"Utsteder:\n"
+"%1"
+
+#. TRANSLATORS: %1 refers to the SSL certificate's issuer's address
+#: src/app/InvalidCertificateErrorSheet.qml:121
+#, qt-format
+msgid ""
+"Issuer address:\n"
+"%1"
+msgstr ""
+"Utsteders adresse:\n"
+"%1"
+
+#. TRANSLATORS: %1 refers to the SSL certificate's start date
+#: src/app/InvalidCertificateErrorSheet.qml:132
+#, qt-format
+msgid ""
+"Valid from:\n"
+"%1"
+msgstr ""
+"Gyldig fra:\n"
+"%1"
+
+#. TRANSLATORS: %1 refers to the SSL certificate's expiry date
+#: src/app/InvalidCertificateErrorSheet.qml:139
+#, qt-format
+msgid ""
+"Valid until:\n"
+"%1"
+msgstr ""
+"Gyldig til:\n"
+"%1"
+
+#. TRANSLATORS: %1 refers to the SSL certificate's SHA1 fingerprint
+#: src/app/InvalidCertificateErrorSheet.qml:146
+#, qt-format
+msgid ""
+"Fingerprint (SHA1):\n"
+"%1"
+msgstr ""
+"Fingeravtrykk (SHA1):\n"
+"%1"
+
+#: src/app/InvalidCertificateErrorSheet.qml:153
+msgid ""
+"You should not proceed, especially if you have never seen this warning "
+"before for this site."
+msgstr ""
+"Du bør la være å fortsette, særlig hvis du aldri har sett denne advarselen "
+"for dette nettstedet før."
+
+#: src/app/MediaAccessDialog.qml:39
+msgid "Permission"
+msgstr "Tillatelse"
+
+#: src/app/MediaAccessDialog.qml:46
+msgid "Allow this domain to access your camera and microphone?"
+msgstr "Vil du la dette domenet bruke kameraet og mikrofonen din?"
+
+#: src/app/MediaAccessDialog.qml:47
+msgid "Allow this domain to access your camera?"
+msgstr "Vil du la dette domenet bruke kameraet ditt?"
+
+#: src/app/MediaAccessDialog.qml:48
+msgid "Allow this domain to access your microphone?"
+msgstr "Vil duVil du la dette domenet bruke mikrofonen din?"
+
+#: src/app/MediaAccessDialog.qml:77
+msgid "Yes"
+msgstr "Ja"
+
+#: src/app/MediaAccessDialog.qml:85
+msgid "No"
+msgstr "Nei"
+
+#: src/app/PromptDialog.qml:25
+msgid "JavaScript Prompt"
+msgstr "JavaScript-forespørsel"
+
+#: src/app/ProxyAuthenticationDialog.qml:22
+msgid "Proxy authentication required."
+msgstr "Mellomtjener må autentiseres."
+
+#. TRANSLATORS: %1 refers to the proxy address, %2 refers to the proxy port
+#: src/app/ProxyAuthenticationDialog.qml:24
+#, qt-format
+msgid "The website %1:%2 requires authentication."
+msgstr "Nettsiden %1:%2 krever at du autentiserer deg."
+
+#: src/app/SavePageDialog.qml:24
+msgid "Save page as HTML / PDF"
+msgstr "Lagre side som HTML / PDF"
+
+#: src/app/SavePageDialog.qml:41
+msgid "No save actions are available"
+msgstr "Ingen lagringshandlinger tilgjengelig"
+
+#: src/app/SavePageDialog.qml:46
+msgid "Save as HTML"
+msgstr "Lagre som HTML"
+
+#: src/app/SavePageDialog.qml:54
+#: src/app/webbrowser/ContentDownloadDialog.qml:102
+msgid "Download"
+msgstr "Last ned"
+
+#: src/app/SavePageDialog.qml:64
+msgid "Save as PDF"
+msgstr "Lagre som PDF"
+
+#: src/app/SimpleDownloadDelegate.qml:128
+msgid "Remove from List"
+msgstr "Fjern fra liste"
+
+#: src/app/webbrowser/AddressBar.qml:287
+msgid "find in page"
+msgstr "søk på siden"
+
+#: src/app/webbrowser/AddressBar.qml:288
+msgid "search or enter an address"
+msgstr "søk eller oppgi en adresse"
+
+#: src/app/webbrowser/AddressBar.qml:440
+msgid "Paste and Go"
+msgstr "Lim inn og gå videre"
+
+#: src/app/webbrowser/BookmarkOptions.qml:66
+msgid "Bookmark Added"
+msgstr "Bokmerket er lagt til"
+
+#. TRANSLATORS: Field where the title of bookmarked URL can be changed
+#: src/app/webbrowser/BookmarkOptions.qml:71
+msgid "Name"
+msgstr "Navn"
+
+#. TRANSLATORS: Field to choose the folder where bookmarked URL will be saved in
+#: src/app/webbrowser/BookmarkOptions.qml:89
+msgid "Save in"
+msgstr "Lagre i"
+
+#: src/app/webbrowser/BookmarkOptions.qml:96
+#: src/app/webbrowser/BookmarksFoldersView.qml:133
+#: src/app/webbrowser/BookmarksFoldersViewWide.qml:105
+msgid "All Bookmarks"
+msgstr "Alle bokmerker"
+
+#: src/app/webbrowser/BookmarkOptions.qml:114
+#: src/app/webbrowser/BookmarkOptions.qml:154
+msgid "New Folder"
+msgstr "Ny mappe"
+
+#: src/app/webbrowser/BookmarkOptions.qml:136
+msgid "Create new folder"
+msgstr "Lag ny mappe"
+
+#: src/app/webbrowser/BookmarkOptions.qml:164
+#: src/app/webbrowser/SettingsPage.qml:550 src/app/ZoomControls.qml:82
+msgid "Save"
+msgstr "Lagre"
+
+#: src/app/webbrowser/BookmarksFoldersView.qml:191
+#: src/app/webbrowser/BookmarksFoldersViewWide.qml:148
+#: src/app/webbrowser/NewTabView.qml:252 src/app/webbrowser/SettingsPage.qml:90
+#: src/app/webbrowser/SettingsPage.qml:486
+msgid "Homepage"
+msgstr "Hjemmeside"
+
+#: src/app/webbrowser/BookmarksView.qml:33
+#: src/app/webbrowser/BookmarksViewWide.qml:33
+#: src/app/webbrowser/Browser.qml:819 src/app/webbrowser/NewTabView.qml:130
+#: src/app/webbrowser/NewTabViewWide.qml:139
+msgid "Bookmarks"
+msgstr "Bokmerker"
+
+#: src/app/webbrowser/Browser.qml:230
+#: src/app/webcontainer/WebViewImplOxide.qml:302
+msgid "Blocked domain"
+msgstr "Blokkert domene"
+
+#: src/app/webbrowser/Browser.qml:231
+#: src/app/webcontainer/WebViewImplOxide.qml:303
+#, qt-format
+msgid "Blocked navigation request to domain %1."
+msgstr "Blokkerte navigeringsforespørsel til domenet «%1»."
+
+#: src/app/webbrowser/Browser.qml:257
+#: src/app/webcontainer/WebViewImplOxide.qml:329
+msgid "Whitelisted domain"
+msgstr "Hvitlistet domene"
+
+#: src/app/webbrowser/Browser.qml:258
+#, qt-format
+msgid ""
+"domain %1 is now whitelisted, it will be active on the next page reload."
+msgstr ""
+"Domenet %1 er nå hvitlistet, det vil være aktivt ved neste sideinnlasting."
+
+#: src/app/webbrowser/Browser.qml:648
+msgid "Done"
+msgstr "Ferdig"
+
+#: src/app/webbrowser/Browser.qml:673
+msgid "Reopen Tab"
+msgstr "Gjenåpne fane"
+
+#: src/app/webbrowser/Browser.qml:799
+msgid "New window"
+msgstr "Nytt vindu"
+
+#: src/app/webbrowser/Browser.qml:805
+msgid "New private window"
+msgstr "Nytt privat vindu"
+
+#: src/app/webbrowser/Browser.qml:825 src/app/webbrowser/HistoryView.qml:31
+#: src/app/webbrowser/HistoryViewWide.qml:36
+msgid "History"
+msgstr "Historikk"
+
+#: src/app/webbrowser/Browser.qml:845 src/app/webbrowser/SettingsPage.qml:45
+msgid "Settings"
+msgstr "Innstillinger"
+
+#: src/app/webbrowser/Browser.qml:851
+msgid "View source"
+msgstr "Vis kilde"
+
+#: src/app/webbrowser/Browser.qml:864
+msgid "Save / Print to PDF"
+msgstr "Lagre/skriv ut som PDF"
+
+#: src/app/webbrowser/Browser.qml:885 src/app/WebViewImpl.qml:690
+msgid "Zoom"
+msgstr "Forstørrelse"
+
+#: src/app/webbrowser/Browser.qml:892 src/app/webbrowser/SettingsPage.qml:140
+msgid "Set Desktop mode"
+msgstr "Sett skrivebordsmodus"
+
+#. TRANSLATORS: %1 refers to the current number of tabs opened
+#: src/app/webbrowser/Browser.qml:1092 src/app/webbrowser/Browser.qml:1130
+#, qt-format
+msgid "(%1)"
+msgstr "(%1)"
+
+#: src/app/webbrowser/Browser.qml:1970
+msgid "the file is already in the downloads folder."
+msgstr "filen er allerede i nedlastingsmappen."
+
+#: src/app/webbrowser/ContentDownloadDialog.qml:83
+msgid ""
+"Choose an application to open this file or add it to the downloads folder."
+msgstr ""
+"Velg et program som fila skal åpnes i, eller lagre den i nedlastingsmappa."
+
+#: src/app/webbrowser/ContentDownloadDialog.qml:89
+msgid "Choose an application"
+msgstr "Velg et program"
+
+#: src/app/webbrowser/ExpandedHistoryView.qml:135
+#, qt-format
+msgid "%1 page"
+msgid_plural "%1 pages"
+msgstr[0] "%1 side"
+msgstr[1] "%1 sider"
+
+#: src/app/webbrowser/HistorySectionDelegate.qml:26
+msgid "Last Visited"
+msgstr "Sist besøkt"
+
+#: src/app/webbrowser/HistorySectionDelegate.qml:48
+#: src/app/webbrowser/HistoryViewWide.qml:252
+msgid "Yesterday"
+msgstr "I går"
+
+#: src/app/webbrowser/HistoryViewWide.qml:161
+msgid "search history"
+msgstr "søkehistorikk"
+
+#: src/app/webbrowser/HistoryViewWide.qml:236
+msgid "All History"
+msgstr "All historikk"
+
+#: src/app/webbrowser/HistoryViewWide.qml:250
+#: src/app/webbrowser/HistoryViewWide.qml:337
+msgid "Today"
+msgstr "I dag"
+
+#. TRANSLATORS: %1 refers to the current page’s title
+#: src/app/webbrowser/morph-tor-browser.qml:108
+#: src/app/webcontainer/webapp-container.qml:76
+#, qt-format
+msgid "%1 - Morph Web Browser"
+msgstr "%1 - Morph nettleser"
+
+#: src/app/webbrowser/NewPrivateTabView.qml:41
+msgid "This is a private tab"
+msgstr "Dette er en privat fane"
+
+#: src/app/webbrowser/NewPrivateTabView.qml:56
+msgid ""
+"Pages that you view in this tab won't appear in your browser history.\n"
+"Bookmarks you create will be preserved, however."
+msgstr ""
+"Sider du ser på i denne fanen, lagres ikke i nettleser-historikken.\n"
+"Bokmerker du lager, blir imidlertid lagret."
+
+#: src/app/webbrowser/NewTabView.qml:142
+msgid "Less"
+msgstr "Færre"
+
+#: src/app/webbrowser/NewTabView.qml:142
+msgid "More"
+msgstr "Mer"
+
+#: src/app/webbrowser/NewTabView.qml:326
+#: src/app/webbrowser/NewTabViewWide.qml:138
+msgid "Top sites"
+msgstr "Mest populære sider"
+
+#: src/app/webbrowser/NewTabView.qml:357
+msgid "You haven't visited any site yet"
+msgstr "Du har ikke besøkt noen sider ennå"
+
+#: src/app/webbrowser/SadTab.qml:47
+msgid "The rendering process has been closed for this tab."
+msgstr "Opptegningsprosessen er lukket for denne fanen."
+
+#: src/app/webbrowser/SadTab.qml:60
+#, qt-format
+msgid "Something went wrong while displaying %1."
+msgstr "Noe gikk galt under visning av %1."
+
+#: src/app/webbrowser/SadTab.qml:70
+msgid "Close tab"
+msgstr "Lukk fane"
+
+#: src/app/webbrowser/SecurityCertificatePopover.qml:70
+msgid "This site has insecure content"
+msgstr "Dette nettstedet har usikkert innhold"
+
+#: src/app/webbrowser/SecurityCertificatePopover.qml:71
+msgid "Identity Not Verified"
+msgstr "Ubekreftet identitet"
+
+#: src/app/webbrowser/SecurityCertificatePopover.qml:79
+msgid "The identity of this website has not been verified."
+msgstr "Identiteten til dette nettstedet er ikke bekreftet."
+
+#: src/app/webbrowser/SecurityCertificatePopover.qml:109
+#, qt-format
+msgid "You are connected to %1 via HTTPS. The certificate is valid."
+msgstr "Du er nå tilknyttet %1 via HTTPS. Sertifikatet er gyldig."
+
+#: src/app/webbrowser/SettingsDeviceSelector.qml:42
+msgid "Default"
+msgstr "Forvalg"
+
+#: src/app/webbrowser/SettingsPage.qml:74
+#: src/app/webbrowser/SettingsPage.qml:277
+msgid "Search engine"
+msgstr "Søkemotor"
+
+#: src/app/webbrowser/SettingsPage.qml:91
+#: src/app/webbrowser/SettingsPage.qml:504
+msgid "New Tab Page"
+msgstr "Ny faneside"
+
+#: src/app/webbrowser/SettingsPage.qml:119
+msgid "Restore previous session at startup"
+msgstr "Gjenopprett forrige økt ved oppstart"
+
+#: src/app/webbrowser/SettingsPage.qml:120
+msgid "not available because of startup in private mode"
+msgstr "ikke tilgjengelig som følge av oppstart i privat modus"
+
+#: src/app/webbrowser/SettingsPage.qml:159
+#: src/app/webcontainer/WebappSettingsPage.qml:58
+msgid "Automatic fit to width"
+msgstr "Automatisk tilpasning til bredden"
+
+#: src/app/webbrowser/SettingsPage.qml:160
+#: src/app/webcontainer/WebappSettingsPage.qml:59
+msgid "Adjusts the width of the website to the window"
+msgstr "Justerer nettsidens bredde for å passe vinduet"
+
+#: src/app/webbrowser/SettingsPage.qml:179
+#: src/app/webcontainer/WebappSettingsPage.qml:78
+msgid "Default Zoom"
+msgstr "Standard skalering"
+
+#: src/app/webbrowser/SettingsPage.qml:218
+#: src/app/webcontainer/WebappSettingsPage.qml:117
+msgid "Load Images"
+msgstr "Last inn bilder"
+
+#: src/app/webbrowser/SettingsPage.qml:219
+#: src/app/webcontainer/WebappSettingsPage.qml:118
+#, fuzzy
+msgid "Automatically load images on web pages"
+msgstr "Last inn bilder på nettsider automatisk"
+
+#: src/app/webbrowser/SettingsPage.qml:238
+#: src/app/webbrowser/SettingsPage.qml:320
+#: src/app/webcontainer/WebappSettingsPage.qml:151
+#: src/app/webcontainer/WebappSettingsPage.qml:192
+msgid "Privacy & permissions"
+msgstr "Personvern og tillatelser"
+
+#: src/app/webbrowser/SettingsPage.qml:249
+msgid "Reset browser settings"
+msgstr "Tilbakestill nettleseroppsett"
+
+#: src/app/webbrowser/SettingsPage.qml:334
+msgid "Start in private mode"
+msgstr "Start i privatmodus"
+
+#: src/app/webbrowser/SettingsPage.qml:358
+#: src/app/webcontainer/WebappSettingsPage.qml:206
+msgid "Only allow browsing to whitelisted websites"
+msgstr "Kun tillat surfing til hvitlistede nettsider"
+
+#: src/app/webbrowser/SettingsPage.qml:398
+#: src/app/webbrowser/SettingsPage.qml:589
+msgid "Camera & microphone"
+msgstr "Kamera og mikrofon"
+
+#: src/app/webbrowser/SettingsPage.qml:407
+msgid "Clear browsing history"
+msgstr "Tøm nettleser-historikk"
+
+#: src/app/webbrowser/SettingsPage.qml:411
+msgid "Clear browsing history?"
+msgstr "Tøm nettleser-historikk?"
+
+#: src/app/webbrowser/SettingsPage.qml:419
+#: src/app/webcontainer/WebappSettingsPage.qml:247
+msgid "Clear cache"
+msgstr "Tøm hurtiglager"
+
+#: src/app/webbrowser/SettingsPage.qml:422
+#: src/app/webcontainer/WebappSettingsPage.qml:250
+msgid "Clear cache?"
+msgstr "Tøm hurtiglager?"
+
+#: src/app/webbrowser/SettingsPage.qml:430
+#: src/app/webcontainer/WebappSettingsPage.qml:258
+msgid "Clear all cookies"
+msgstr "Fjern alle kaker"
+
+#: src/app/webbrowser/SettingsPage.qml:433
+#: src/app/webcontainer/WebappSettingsPage.qml:261
+msgid "Clear all Cookies?"
+msgstr "Fjern alle kaker?"
+
+#: src/app/webbrowser/SettingsPage.qml:516
+#, fuzzy
+#| msgid "Custom hompage"
+msgid "Custom homepage"
+msgstr "Tilpasset hjemmeside"
+
+#: src/app/webbrowser/SettingsPage.qml:601
+msgid "Microphone"
+msgstr "Mikrofon"
+
+#: src/app/webbrowser/SettingsPage.qml:622
+msgid "Camera"
+msgstr "Kamera"
+
+#: src/app/webbrowser/TabComponent.qml:282
+msgid "Swipe Up To Exit Full Screen"
+msgstr "Dra opp for å gå ut av fullskjerm"
+
+#: src/app/webbrowser/TabComponent.qml:283
+msgid "Press ESC To Exit Full Screen"
+msgstr "Trykk ESC for å gå ut av fullskjerm"
+
+#: src/app/webbrowser/TabPreview.qml:113
+msgid "Tap to view"
+msgstr "Trykk for å vise"
+
+#: src/app/webbrowser/TabsBar.qml:64 src/app/webbrowser/TabsList.qml:100
+msgid "New tab"
+msgstr "Ny fane"
+
+#: src/app/webbrowser/TabsBar.qml:99
+msgid "Move to New Window"
+msgstr "Flytt til nytt vindu"
+
+#: src/app/webbrowser/TabsBar.qml:116
+msgid "Close Tab"
+msgstr "Lukk fane"
+
+#: src/app/webbrowser/UrlPreviewDelegate.qml:138
+msgid "Remove"
+msgstr "Fjern"
+
+#: src/app/webcontainer/AccountChooserDialog.qml:62
+msgid ""
+"No accounts have been linked to this webapp; press the item below to add an "
+"account."
+msgstr ""
+"Dette nettprogrammet er ikke tilknyttet noen konto. Trykk nedenfor for å "
+"legge til en konto."
+
+#: src/app/webcontainer/AccountChooserDialog.qml:78
+msgid "Add account"
+msgstr "Legg til konto"
+
+#: src/app/webcontainer/AccountChooserDialog.qml:87
+msgid "Don't use an account"
+msgstr "Ikke bruk en konto"
+
+#: src/app/webcontainer/AccountErrorScreen.qml:39
+msgid "Account error"
+msgstr "Feil med konto"
+
+#: src/app/webcontainer/AccountErrorScreen.qml:50
+msgid "Close"
+msgstr "Lukk"
+
+#: src/app/webcontainer/AccountsLogic.qml:63
+msgid ""
+"Account window could not be opened. You can only create one account at a "
+"time; please try again after closing all other account windows."
+msgstr ""
+"Klarte ikke å åpne kontovinduet. Du kan bare lage én konto om gangen, prøv "
+"igjen når du har lukket alle andre kontovinduer."
+
+#: src/app/webcontainer/AccountsLogic.qml:214
+msgid "Authentication failed"
+msgstr "Autentisering mislyktes"
+
+#. TRANSLATORS: %1 refers to the application name, %2 refers to the account provider
+#: src/app/webcontainer/AccountsSplashScreen.qml:45
+#, qt-format
+msgid "<b>%1</b> needs to access your %2 online account."
+msgstr "<b>%1</b> trenger tilgang til din %2-konto."
+
+#. TRANSLATORS: %1 refers to the application name, %2 refers to the account provider
+#: src/app/webcontainer/AccountsSplashScreen.qml:55
+#, qt-format
+msgid "<b>%1</b> would like to access your %2 online account."
+msgstr "<b>%1</b> vil ha tilgang til din %2-konto."
+
+#: src/app/webcontainer/AccountsSplashScreen.qml:64
+msgid ""
+"Choose an account now, or skip this step and choose an online account later."
+msgstr ""
+"Du kan velge en konto nå, eller du kan hoppe over dette steget og velge en "
+"senere."
+
+#: src/app/webcontainer/AccountsSplashScreen.qml:77
+msgid "Close the app"
+msgstr "Lukk appen"
+
+#: src/app/webcontainer/AccountsSplashScreen.qml:77
+msgid "Skip"
+msgstr "Hopp over"
+
+#: src/app/webcontainer/AccountsSplashScreen.qml:84
+msgid "Choose account"
+msgstr "Velg konto"
+
+#: src/app/webcontainer/SadPage.qml:45
+msgid "Oops, something went wrong."
+msgstr "Oi. Noe gikk galt."
+
+#: src/app/webcontainer/WebappSettingsPage.qml:38
+msgid "WebappContainer Settings"
+msgstr "Nettprogramsbeholder-innstillinger"
+
+#: src/app/webcontainer/WebappSettingsPage.qml:163
+msgid "Reset webapp settings"
+msgstr "Tilbakestill nettleserinnstillinger"
+
+#: src/app/webcontainer/WebViewImplOxide.qml:330
+#, qt-format
+msgid "domain %1 is now whitelisted, please reload the page."
+msgstr "Domenet «%1» er nå hvitlistet, last inn siden igjen."
+
+#: src/app/ZoomControls.qml:61
+msgid "Zoom Out"
+msgstr "Forminsk"
+
+#: src/app/ZoomControls.qml:68
+msgid "Reset"
+msgstr "Tilbakestill"
+
+#: src/app/ZoomControls.qml:68
+msgid "fit"
+msgstr "tilpasning"
+
+#: src/app/ZoomControls.qml:75
+msgid "Zoom In"
+msgstr "Forstørr"
+
+#: src/app/ZoomControls.qml:100
+msgid "Current Zoom"
+msgstr "Nåværende forstørrelsesnivå"
+
+#: src/app/ZoomControls.qml:101
+msgid "domain"
+msgstr "Domene"
+
+#: src/app/ZoomControls.qml:101
+msgid "default"
+msgstr "Forvalg"
+
+#: src/app/ZoomControls.qml:101
+msgid "auto-fit"
+msgstr "automatisk"
+
+#: src/app/ZoomControls.qml:190
+msgid "Save Zoom"
+msgstr "Lagre forstørrelse"
+
+#: src/app/ZoomControls.qml:192
+msgid "the current web app"
+msgstr "Nåværende nettprogram"
+
+#: src/app/ZoomControls.qml:195
+#, qt-format
+msgid ""
+"The current zoom level (%1%) can be saved in %2 either for the current "
+"domain or as the default zoom level."
+msgstr ""
+"Nåværende forstørrelsesnivå (%1%) kan lagres i %2 enten for nåværende "
+"domene, eller som forvalgt forstørrelsesnivå."
+
+#: src/app/ZoomControls.qml:197
+#, qt-format
+msgid "The current zoom level (%1%) can be saved in %2 for the current domain."
+msgstr ""
+"Nåværende forstørrelsesnivå (%1%) kan lagres i %2 for nåværende domene."
+
+#: src/app/ZoomControls.qml:199
+#, qt-format
+msgid ""
+"The current zoom level (%1%) can be saved in %2 as the default zoom level."
+msgstr ""
+"Nåværende forstørrelsesnivå (%1%) kan lagres i %2 som forvalgt "
+"forstørrelsesnivå."
+
+#: src/app/ZoomControls.qml:206
+msgid "Save for domain"
+msgstr "Lagre for domene"
+
+#: src/app/ZoomControls.qml:219
+msgid "Save as default"
+msgstr "Lagre som forvalg"
+
+#, fuzzy
+#~ msgid "/usr/share/morph-tor-browser/morph-tor-browser.svg"
+#~ msgstr "/usr/share/morph-tor-browser/morph-tor-browser.svg"
+
+#, qt-format
+#~ msgid ""
+#~ "The site '%1' is trying to open the following URL with a custom scheme:"
+#~ msgstr ""
+#~ "Siden \"%1\" prøver å åpne følgende nettadresse med en tilpasset avart:"
+
+#~ msgid ""
+#~ "This will try to dispatch this url to a system app if possible. Do you "
+#~ "want to proceed?"
+#~ msgstr ""
+#~ "Dette vil videresende denne nettadressen til en systemapp om mulig. Vil "
+#~ "du fortsette?"
+
+#~ msgid "Pause"
+#~ msgstr "Sett på pause"
+
+#~ msgid "Resume"
+#~ msgstr "Fortsett"
+
+#~ msgid "none"
+#~ msgstr "ingen"
+
+#, qt-format
+#~ msgid ""
+#~ "domain zoom (currently %1 and can be removed with reset button or from "
+#~ "domain specific settings in privacy settings)"
+#~ msgstr ""
+#~ "domenenavnsforstørrelse (nå %1 og kan fjernes med tilbakestillingsknappen "
+#~ "eller fra domenespesifikke innstillinger i personvernsinnstillinger)"
+
+#~ msgid " and resets domain zoom"
+#~ msgstr " og tilbakestiller domenenavnsforstørrelse"
+
+#, qt-format
+#~ msgid "default zoom (currently %1%, can be changed from settings menu%2)"
+#~ msgstr ""
+#~ "forvalgt forstørrelsesnivå (nå %1%, kan endres fra innstillingsmenyen %2)"
+
+#~ msgid "or"
+#~ msgstr "eller"
+
+#~ msgid "Save as HTML / PDF"
+#~ msgstr "Lagre som HTML / PDF"
+
+#~ msgid ""
+#~ "Set current zoom as default zoom for %1 ? (You can change it in the "
+#~ "settings menu)"
+#~ msgstr ""
+#~ "Sett nåværende forstørrelse som forvalg for %1? (Du kan endre det senere "
+#~ "i innstillingsmenyen)"
+
+#~ msgid ""
+#~ "You attempted to reach %1 but the server presented a security certificate "
+#~ "which does not match the identity of the site."
+#~ msgstr ""
+#~ "Du prøvde å koble til %1, men tjeneren bruker et sikkerhetssertifikat som "
+#~ "ikke samsvarer med nettstedets identitet."
+
+#~ msgid ""
+#~ "You attempted to reach %1 but the server presented a security certificate "
+#~ "which has expired."
+#~ msgstr ""
+#~ "Du prøvde å koble til %1, men tjeneren bruker et utgått "
+#~ "sikkerhetssertifikat."
+
+#~ msgid ""
+#~ "You attempted to reach %1 but the server presented a security certificate "
+#~ "which contains invalid dates."
+#~ msgstr ""
+#~ "Du prøvde å koble til %1, men tjeneren bruker et sikkerhetssertifikat som "
+#~ "inneholder ugyldige datoer."
+
+#~ msgid ""
+#~ "You attempted to reach %1 but the server presented a security certificate "
+#~ "issued by an entity that is not trusted."
+#~ msgstr ""
+#~ "Du prøvde å koble til %1, men tjeneren bruker et sikkerhetssertifikat som "
+#~ "er utstedt av en ukjent eller upålitelig tredjepart."
+
+#~ msgid ""
+#~ "You attempted to reach %1 but the server presented a security certificate "
+#~ "that has been revoked."
+#~ msgstr ""
+#~ "Du prøvde å koble til %1, men tjeneren bruker et sikkerhetssertifikat som "
+#~ "er tilbakekalt."
+
+#~ msgid ""
+#~ "You attempted to reach %1 but the server presented an invalid security "
+#~ "certificate."
+#~ msgstr ""
+#~ "Du prøvde å koble til %1, men tjeneren bruker et ugyldig "
+#~ "sikkerhetssertifikat."
+
+#~ msgid ""
+#~ "You attempted to reach %1 but the server presented an insecure security "
+#~ "certificate."
+#~ msgstr ""
+#~ "Du prøvde å koble til %1, men tjeneren bruker et usikkert "
+#~ "sikkerhetssertifikat."
+
+#~ msgid ""
+#~ "This site security certificate is not trusted\n"
+#~ "You attempted to reach %1 but the server presented a security certificate "
+#~ "which failed our security checks for an unknown reason."
+#~ msgstr ""
+#~ "Dette sikkerhetssertifikatet er ukjent eller upålitelig\n"
+#~ "Du prøvde å koble til %1, men tjeneren bruker et sikkerhetssertifikat som "
+#~ "av ukjent grunn ikke oppfyller sikkerhetskravene."
+
+#~ msgid "%1 (embedded in %2)"
+#~ msgstr "%1 (innebygd i %2)"
+
+#~ msgid "%1/%2"
+#~ msgstr "%1/%2"
+
+#~ msgid ""
+#~ "The system is low on memory and can't display this webpage. Try closing "
+#~ "unneeded tabs and reloading."
+#~ msgstr ""
+#~ "Systemet har lite tilgjengelig, og denne nettsiden kan ikke vises. Prøv å "
+#~ "lukke unødvendige faner, og last deretter inn siden på nytt."
+
+#~ msgid "Server certificate does not match the identity of the site."
+#~ msgstr "Tjenerens sertifikat samsvarer ikke med nettstedets identitet."
+
+#~ msgid "Server certificate has expired."
+#~ msgstr "Tjenerens sertifikat er utgått."
+
+#~ msgid "Server certificate contains invalid dates."
+#~ msgstr "Tjenerens sertifikat inneholder ugyldige datoer."
+
+#~ msgid "Server certificate is issued by an entity that is not trusted."
+#~ msgstr "Tjenerens sertifikat er utstedt av en upålitelig kilde."
+
+#~ msgid "Server certificate has been revoked."
+#~ msgstr "Tjenerens sertifikat er tilbakekalt."
+
+#~ msgid "Server certificate is invalid."
+#~ msgstr "Tjenerens sertifikat er ugyldig."
+
+#~ msgid "Server certificate is insecure."
+#~ msgstr "Tjenerens sertifikat er usikkert."
+
+#~ msgid "Server certificate failed our security checks for an unknown reason."
+#~ msgstr "Sikkerhetssjekk av tjenersertifikat mislyktes av ukjent grunn."
+
+#~ msgid "You are connected to"
+#~ msgstr "Du er koblet til"
+
+#~ msgid "Which is run by"
+#~ msgstr "Som drives av"
+
+#~ msgid "Ubuntu Web Browser"
+#~ msgstr "Ubuntu nettleser"
+
+#~ msgid "Please choose a file"
+#~ msgstr "Velg en fil"
+
+#~ msgid "Select an account"
+#~ msgstr "Velg en konto"
+
+#~ msgid "No local account found for "
+#~ msgstr "Fant ingen lokal konto for "
+
+#~ msgid "Skip account creation step"
+#~ msgstr "Hopp over, og ikke lag en konto"
+
+#~ msgid "Share…"
+#~ msgstr "Del …"
+
+#~ msgid "see less"
+#~ msgstr "vis færre"
+
+#~ msgid "see more"
+#~ msgstr "vis flere"
+
+#~ msgid "Open tabs"
+#~ msgstr "Åpne faner"
+
+#~ msgid "Add"
+#~ msgstr "Legg til"
+
+#~ msgid "Delete all history?"
+#~ msgstr "Vil du slette all historikk?"
+
+#~ msgid "Privacy"
+#~ msgstr "Personvern"
+
+#~ msgid "Allow opening new tabs in background"
+#~ msgstr "Tillat åpning av nye faner i bakgrunnen"
+
+#~ msgid "Going to public mode will close all private tabs"
+#~ msgstr "Hvis du går i offentlig modus, blir alle private faner lukket"
+
+#~ msgid "Private Mode"
+#~ msgstr "Privatmodus"
+
+#~ msgid ""
+#~ "Ubuntu suggests you check your network settings and try refreshing the "
+#~ "page."
+#~ msgstr ""
+#~ "Ubuntu foreslår at du kontrollerer nettverksinnstillingene og deretter "
+#~ "oppdaterer denne siden."
+
+#~ msgid "Open a New Private Window"
+#~ msgstr "Åpne nytt privat vindu"
+
+#~ msgid "Open a New Window"
+#~ msgstr "Åpne nytt vindu"

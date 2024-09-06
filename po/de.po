@@ -1,0 +1,1506 @@
+# German translation for morph-tor-browser
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the morph-tor-browser package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: morph-tor-browser\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-19 16:45+0100\n"
+"PO-Revision-Date: 2023-12-26 12:02+0000\n"
+"Last-Translator: Daniel Frost <one@frostinfo.de>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/lomiri/"
+"morph-tor-browser/de/>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4-dev\n"
+"X-Launchpad-Export-Date: 2017-04-05 07:15+0000\n"
+
+#: morph-tor-browser.desktop.in:4
+msgid "Morph Browser"
+msgstr "Morph Browser"
+
+#: morph-tor-browser.desktop.in:5 src/app/webbrowser/morph-tor-browser.qml:110
+#: src/app/webcontainer/webapp-container.qml:78
+msgid "Morph Web Browser"
+msgstr "Morph Web-Browser"
+
+#: morph-tor-browser.desktop.in:6
+msgid "Browse the World Wide Web using QtWebEngine"
+msgstr "Im World Wide Web mit der QtWebEngine surfen"
+
+#: morph-tor-browser.desktop.in:7
+msgid "Internet;WWW;Browser;Web;Explorer"
+msgstr "Internet;WWW;Browser;Netz;Web;Webbrowser;Navigator;Explorer"
+
+#: morph-tor-browser.desktop.in:23
+msgid "New Window"
+msgstr "Neues Fenster"
+
+#: morph-tor-browser.desktop.in:27
+msgid "New Private Window"
+msgstr "Neues privates Fenster"
+
+#: src/app/actions/Back.qml:23
+msgid "Back"
+msgstr "Zurück"
+
+#. TRANSLATORS: This is a free-form list of keywords associated to the 'Back' action.
+#. Keywords may actually be sentences, and must be separated by semi-colons.
+#: src/app/actions/Back.qml:26
+msgid "Older Page"
+msgstr "Ältere Seite"
+
+#: src/app/actions/BookmarkLink.qml:22
+msgid "Bookmark link"
+msgstr "Lesezeichen für Verweis anlegen"
+
+#: src/app/actions/Bookmark.qml:23
+msgid "Bookmark"
+msgstr "Lesezeichen"
+
+#. TRANSLATORS: This is a free-form list of keywords associated to the 'Bookmark' action.
+#. Keywords may actually be sentences, and must be separated by semi-colons.
+#: src/app/actions/Bookmark.qml:26
+msgid "Add This Page to Bookmarks"
+msgstr "Diese Seite zu den Lesezeichen hinzufügen"
+
+#: src/app/actions/ClearHistory.qml:23
+msgid "Clear History"
+msgstr "Verlauf löschen"
+
+#. TRANSLATORS: This is a free-form list of keywords associated to the 'Clear History' action.
+#. Keywords may actually be sentences, and must be separated by semi-colons.
+#: src/app/actions/ClearHistory.qml:26
+msgid "Clear Navigation History"
+msgstr "Verlauf;Navigantion;löschen;leeren"
+
+#: src/app/actions/CopyImage.qml:22
+msgid "Copy image"
+msgstr "Bild kopieren"
+
+#: src/app/actions/CopyLink.qml:22
+msgid "Copy link"
+msgstr "Verweisadresse kopieren"
+
+#: src/app/actions/Copy.qml:22 src/app/webbrowser/AddressBar.qml:418
+msgid "Copy"
+msgstr "Kopieren"
+
+#: src/app/actions/Cut.qml:22 src/app/webbrowser/AddressBar.qml:407
+msgid "Cut"
+msgstr "Ausschneiden"
+
+#: src/app/actions/Erase.qml:22
+msgid "Erase"
+msgstr "Löschen"
+
+#: src/app/actions/FindInPage.qml:23 src/app/webbrowser/Browser.qml:831
+msgid "Find in page"
+msgstr "Suche in Seite"
+
+#. TRANSLATORS: This is a free-form list of keywords associated to the 'Find in Page' action.
+#. Keywords may actually be sentences, and must be separated by semi-colons.
+#: src/app/actions/FindInPage.qml:26
+msgid "Search in Page"
+msgstr "Suche;Suchen"
+
+#: src/app/actions/Forward.qml:23
+msgid "Forward"
+msgstr "Weiterleiten"
+
+#. TRANSLATORS: This is a free-form list of keywords associated to the 'Forward' action.
+#. Keywords may actually be sentences, and must be separated by semi-colons.
+#: src/app/actions/Forward.qml:26
+msgid "Newer Page"
+msgstr "Neuere Seite"
+
+#: src/app/actions/GoTo.qml:23
+msgid "Goto"
+msgstr "Wechseln zu"
+
+#. TRANSLATORS: This is a free-form list of keywords associated to the 'Goto' action.
+#. Keywords may actually be sentences, and must be separated by semi-colons.
+#: src/app/actions/GoTo.qml:26
+msgid "Address;URL;www"
+msgstr "Adresse;URL;www"
+
+#: src/app/actions/NewTab.qml:23 src/app/webbrowser/Browser.qml:691
+#: src/app/webbrowser/TabsBar.qml:88
+msgid "New Tab"
+msgstr "Neuer Reiter"
+
+#. TRANSLATORS: This is a free-form list of keywords associated to the 'New Tab' action.
+#. Keywords may actually be sentences, and must be separated by semi-colons.
+#: src/app/actions/NewTab.qml:26
+msgid "Open a New Tab"
+msgstr "Einen neuen Reiter öffnen"
+
+#: src/app/actions/OpenImageInNewTab.qml:22
+msgid "Open image in new tab"
+msgstr "Grafik in neuem Reiter öffnen"
+
+#: src/app/actions/OpenLinkInBrowser.qml:22
+msgid "Open link in default browser"
+msgstr "Link im Standardbrowser öffnen"
+
+#: src/app/actions/OpenLinkInNewBackgroundTab.qml:22
+msgid "Open link in new background tab"
+msgstr "Verweis in neuem Hintergrundreiter öffnen"
+
+#: src/app/actions/OpenLinkInNewPrivateWindow.qml:22
+msgid "Open link in new private window"
+msgstr "Link in neuem privaten Fenster öffnen"
+
+#: src/app/actions/OpenLinkInNewTab.qml:22
+msgid "Open link in new tab"
+msgstr "Verweis in neuem Reiter öffnen"
+
+#: src/app/actions/OpenLinkInNewWindow.qml:22
+msgid "Open link in new window"
+msgstr "Verweis in neuem Fenster öffnen"
+
+#: src/app/actions/OpenVideoInNewTab.qml:22
+msgid "Open video in new tab"
+msgstr "Video in neuem Reiter öffnen"
+
+#: src/app/actions/Paste.qml:22 src/app/webbrowser/AddressBar.qml:429
+msgid "Paste"
+msgstr "Einfügen"
+
+#: src/app/actions/Redo.qml:22
+msgid "Redo"
+msgstr "Wiederholen"
+
+#: src/app/actions/Reload.qml:23 src/app/webbrowser/SadTab.qml:76
+#: src/app/webbrowser/TabsBar.qml:93 src/app/webcontainer/SadPage.qml:51
+msgid "Reload"
+msgstr "Neu laden"
+
+#. TRANSLATORS: This is a free-form list of keywords associated to the 'Reload' action.
+#. Keywords may actually be sentences, and must be separated by semi-colons.
+#: src/app/actions/Reload.qml:26
+msgid "Leave Page"
+msgstr "Seite verlassen"
+
+#: src/app/actions/SaveImage.qml:22
+msgid "Save image"
+msgstr "Bild speichern"
+
+#: src/app/actions/SaveLink.qml:22
+msgid "Save link"
+msgstr "Verweis speichern"
+
+#: src/app/actions/SaveVideo.qml:22
+msgid "Save video"
+msgstr "Video speichern"
+
+#: src/app/actions/SelectAll.qml:22 src/app/CustomUserAgentsPage.qml:47
+#: src/app/DomainPermissionsPage.qml:68 src/app/DomainSettingsPage.qml:66
+#: src/app/DownloadsPage.qml:85
+msgid "Select all"
+msgstr "Alle auswählen"
+
+#: src/app/actions/Share.qml:22 src/app/webbrowser/Browser.qml:811
+msgid "Share"
+msgstr "Teilen"
+
+#: src/app/actions/Undo.qml:22
+msgid "Undo"
+msgstr "Rückgängig"
+
+#: src/app/AlertDialog.qml:24
+msgid "JavaScript Alert"
+msgstr "JavaScript-Warnmeldung"
+
+#: src/app/AlertDialog.qml:31 src/app/AuthenticationDialog.qml:47
+#: src/app/ColorSelectDialog.qml:73 src/app/ConfirmDialog.qml:33
+#: src/app/EditCustomUserAgentDialog.qml:62
+#: src/app/HttpAuthenticationDialog.qml:70 src/app/PromptDialog.qml:50
+#: src/app/webbrowser/BookmarkOptions.qml:122
+msgid "OK"
+msgstr "OK"
+
+#: src/app/AllowCustomSchemesDialog.qml:24
+msgid "Custom URL schemes"
+msgstr "Benutzerdefinierte URL-Schemen"
+
+#: src/app/AllowCustomSchemesDialog.qml:30
+#, qt-format
+msgid "The '%1' website wants to open this URL outside of the web browser:"
+msgstr "Die Webseite '%1' möchte die URL außerhalb des Browsers öffnen:"
+
+#: src/app/AllowCustomSchemesDialog.qml:32
+msgid "Open this URL with a system app if possible?"
+msgstr "Diese URL falls möglich mit einer systemeigenen App öffnen?"
+
+#: src/app/AllowCustomSchemesDialog.qml:44
+#: src/app/GeolocationPermissionRequest.qml:44
+msgid "Remember decision"
+msgstr "Entscheidung merken"
+
+#: src/app/AllowCustomSchemesDialog.qml:50
+#: src/app/GeolocationPermissionRequest.qml:51
+msgid "Allow"
+msgstr "Erlauben"
+
+#: src/app/AllowCustomSchemesDialog.qml:57
+#: src/app/AllowOrBlockDomainDialog.qml:53 src/app/AuthenticationDialog.qml:53
+#: src/app/CertificateVerificationDialog.qml:46
+#: src/app/ColorSelectDialog.qml:84 src/app/ConfirmDialog.qml:41
+#: src/app/DownloadDelegate.qml:271 src/app/EditCustomUserAgentDialog.qml:69
+#: src/app/HttpAuthenticationDialog.qml:80 src/app/PromptDialog.qml:61
+#: src/app/SavePageDialog.qml:73 src/app/SimpleDownloadDelegate.qml:136
+#: src/app/webbrowser/BookmarkOptions.qml:182
+#: src/app/webbrowser/ContentDownloadDialog.qml:114
+#: src/app/webbrowser/ContextMenuMobile.qml:143
+#: src/app/webbrowser/SettingsPage.qml:458
+#: src/app/webbrowser/SettingsPage.qml:574
+#: src/app/webcontainer/AccountChooserDialog.qml:96
+#: src/app/webcontainer/ContextMenuMobile.qml:143
+#: src/app/webcontainer/WebappSettingsPage.qml:286 src/app/ZoomControls.qml:237
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: src/app/AllowOrBlockDomainDialog.qml:25
+#: src/app/AllowOrBlockDomainDialog.qml:41
+msgid "Block domain"
+msgstr "Domain blockieren"
+
+#: src/app/AllowOrBlockDomainDialog.qml:30
+#, qt-format
+msgid ""
+"You're trying to access %1 but it is not on your approved domain whitelist. "
+"Would you like to continue to block the domain, allow browsing to the "
+"domain, or go back?"
+msgstr ""
+"Sie versuchen, auf %1 zuzugreifen, aber es ist nicht auf der Whitelist Ihrer "
+"genehmigten Domäne. Möchten Sie die Domain weiterhin blockieren, das Surfen "
+"zur Domain erlauben oder zurückgehen?"
+
+#: src/app/AllowOrBlockDomainDialog.qml:31
+#, qt-format
+msgid ""
+"%1 is trying to access %2 but it is not on your approved domain whitelist. "
+"Would you like to continue to block the domain, allow loading data from the "
+"domain, or just ignore this request ?"
+msgstr ""
+"%1 versucht, auf %2 zuzugreifen, aber es ist nicht auf der Whitelist Ihrer "
+"genehmigten Domain. Möchten Sie die Domain weiterhin blockieren, das Laden "
+"von Daten aus der Domain erlauben oder diese Anfrage einfach ignorieren?"
+
+#: src/app/AllowOrBlockDomainDialog.qml:47
+msgid "Allow domain"
+msgstr "Domain erlauben"
+
+#: src/app/AuthenticationDialog.qml:24 src/app/HttpAuthenticationDialog.qml:25
+msgid "Authentication required."
+msgstr "Legitimierung wird benötigt."
+
+#. TRANSLATORS: %1 refers to the URL of the current website
+#: src/app/AuthenticationDialog.qml:26
+#, qt-format
+msgid "The website %1 requires authentication."
+msgstr "Die Internetseite %1 erfordert eine Legitimierung."
+
+#: src/app/AuthenticationDialog.qml:34 src/app/HttpAuthenticationDialog.qml:50
+msgid "Username"
+msgstr "Benutzername"
+
+#: src/app/AuthenticationDialog.qml:41 src/app/HttpAuthenticationDialog.qml:60
+msgid "Password"
+msgstr "Passwort"
+
+#: src/app/BeforeUnloadDialog.qml:24
+msgid "Confirm Navigation"
+msgstr "Navigation bestätigen"
+
+#: src/app/BeforeUnloadDialog.qml:33
+msgid "Leave"
+msgstr "Verlassen"
+
+#: src/app/BeforeUnloadDialog.qml:41
+msgid "Stay"
+msgstr "Bleiben"
+
+#: src/app/CertificateVerificationDialog.qml:24
+msgid "This connection is untrusted"
+msgstr "Dieser Verbindung wird nicht vertraut"
+
+#. TRANSLATORS: %1 refers to the hostname
+#: src/app/CertificateVerificationDialog.qml:26
+#, qt-format
+msgid ""
+"You are trying to securely reach %1, but the security certificate of this "
+"website is not trusted. Reason: %2"
+msgstr ""
+"Sie versuchen eine sichere Verbindung zu %1 aufzubauen, aber das "
+"Sicherheitszertifikat dieser Internetseite ist nicht vertrauenswürdig. "
+"Grund: %2"
+
+#: src/app/CertificateVerificationDialog.qml:39
+#: src/app/InvalidCertificateErrorSheet.qml:160
+msgid "Proceed anyway"
+msgstr "Trotzdem fortfahren"
+
+#: src/app/ColorSelectDialog.qml:25
+msgid "Select Color"
+msgstr "Farbe auswählen"
+
+#: src/app/ConfirmDialog.qml:24
+msgid "JavaScript Confirmation"
+msgstr "JavaScript-Bestätigung"
+
+#: src/app/CustomUserAgentsPage.qml:33 src/app/DomainSettingsPage.qml:150
+msgid "Custom User Agents"
+msgstr "Benutzerdefinierter User Agent"
+
+#: src/app/CustomUserAgentsPage.qml:63 src/app/DomainPermissionsPage.qml:84
+#: src/app/DomainSettingsPage.qml:82 src/app/DownloadsPage.qml:101
+msgid "Delete"
+msgstr "Löschen"
+
+#: src/app/CustomUserAgentsPage.qml:94
+msgid "New User Agent"
+msgstr "Neuer User Agent"
+
+#: src/app/CustomUserAgentsPage.qml:161
+msgid "Edit User Agent"
+msgstr "User Agent anpassen"
+
+#: src/app/CustomUserAgentsPage.qml:187
+msgid "No custom user agents available"
+msgstr "Keine benutzerdefinierten User Agent's verfügbar"
+
+#: src/app/DomainPermissionsPage.qml:54
+msgid "Domain blacklist/whitelist"
+msgstr "Domain Blacklist/Whitelist"
+
+#: src/app/DomainPermissionsPage.qml:113 src/app/DomainSettingsPage.qml:113
+msgid "Add domain"
+msgstr "Domain hinzufügen"
+
+#: src/app/DomainPermissionsPage.qml:114
+msgid ""
+"Enter the name of the domain, e.g. example.com (subdomains will be removed)."
+msgstr ""
+"Geben Sie den Namen der Domain ein, z.B. example.com (Subdomains werden "
+"entfernt)."
+
+#: src/app/DomainPermissionsPage.qml:222
+msgid "Not Set"
+msgstr "Nicht festgelegt"
+
+#: src/app/DomainPermissionsPage.qml:232
+msgid "Never allow access"
+msgstr "Zugriff niemals erlauben"
+
+#: src/app/DomainPermissionsPage.qml:243
+msgid "Always allow access"
+msgstr "Zugriff immer erlauben"
+
+#: src/app/DomainPermissionsPage.qml:283
+msgid "No sites have been granted special permissions"
+msgstr "Es wurden keine besonderen Berechtigungen für Websites erteilt"
+
+#: src/app/DomainSettingsPage.qml:52
+msgid "Domain specific settings"
+msgstr "Domain-spezifische Einstellungen"
+
+#: src/app/DomainSettingsPage.qml:114
+msgid "Enter the name of the domain, e.g. m.example.com"
+msgstr "Geben Sie den Namen der Domain ein, z.B. m.example.com"
+
+#: src/app/DomainSettingsPage.qml:207
+msgid "allowed to launch other apps"
+msgstr "Erlaubt, andere Apps zu starten"
+
+#: src/app/DomainSettingsPage.qml:226
+msgid "access your location"
+msgstr "Position abrufen"
+
+#: src/app/DomainSettingsPage.qml:231
+msgid "Ask each time"
+msgstr "Jedes Mal fragen"
+
+#: src/app/DomainSettingsPage.qml:231
+msgid "Allowed"
+msgstr "Erlaubt"
+
+#: src/app/DomainSettingsPage.qml:231
+msgid "Denied"
+msgstr "Verboten"
+
+#: src/app/DomainSettingsPage.qml:245
+msgid "custom user agent"
+msgstr "Benutzerdefinierter User Agent"
+
+#: src/app/DomainSettingsPage.qml:320 src/app/DomainSettingsPage.qml:325
+msgid "Zoom: "
+msgstr "Zoom: "
+
+#: src/app/DomainSettingsPage.qml:325
+msgid "not set"
+msgstr "nicht festgelegt"
+
+#: src/app/DomainSettingsPage.qml:361
+msgid "No domain specific settings available"
+msgstr "Keine Domain-spezifischen Einstellungen verfügbar"
+
+#. TRANSLATORS: %1 is the percentage of the download completed so far
+#: src/app/DownloadDelegate.qml:105 src/app/DownloadsDialog.qml:109
+#, qt-format
+msgid "%1%"
+msgstr "%1%"
+
+#: src/app/DownloadDelegate.qml:170
+msgid "Download failed"
+msgstr "Herunterladen ist fehlgeschlagen"
+
+#: src/app/DownloadDelegate.qml:199
+msgid "Unknown"
+msgstr "Unbekannt"
+
+#. TRANSLATORS: %1 is the number of bytes i.e. 2bytes, 5KB, 1MB
+#: src/app/DownloadDelegate.qml:207
+#, qt-format
+msgid "%1/s"
+msgstr "%1/s"
+
+#: src/app/DownloadDelegate.qml:251 src/app/SimpleDownloadDelegate.qml:117
+msgid "Delete File"
+msgstr "Datei Löschen"
+
+#: src/app/DownloadDelegate.qml:261
+msgid "Remove from History"
+msgstr "Aus dem Verlauf löschen"
+
+#: src/app/DownloadDelegate.qml:290 src/app/SimpleDownloadDelegate.qml:157
+msgid "Copy Download Link"
+msgstr "Downloadlink kopieren"
+
+#: src/app/DownloadsDialog.qml:68
+msgid "Recent Downloads"
+msgstr "Letzte Downloads"
+
+#: src/app/DownloadsDialog.qml:83
+msgid "No Recent Downloads"
+msgstr "Keine Downloads vorhanden"
+
+#: src/app/DownloadsDialog.qml:106
+msgid "Cancelled"
+msgstr "Abgebrochen"
+
+#: src/app/DownloadsDialog.qml:109
+msgid "Completed"
+msgstr "Abgeschlossen"
+
+#: src/app/DownloadsDialog.qml:169 src/app/webbrowser/SettingsPage.qml:465
+#: src/app/webcontainer/WebappSettingsPage.qml:293
+msgid "Clear"
+msgstr "Bereinigen"
+
+#: src/app/DownloadsDialog.qml:179
+msgid "View All"
+msgstr "Alle anzeigen"
+
+#: src/app/DownloadsPage.qml:46 src/app/webbrowser/Browser.qml:838
+#: src/app/webcontainer/WebappSettingsPage.qml:137
+msgid "Downloads"
+msgstr "Downloads"
+
+#: src/app/DownloadsPage.qml:60
+msgid "Confirm selection"
+msgstr "Auswahl bestätigen"
+
+#: src/app/DownloadsPage.qml:288
+msgid "No downloads available"
+msgstr "Keine Downloads verfügbar"
+
+#: src/app/EditCustomUserAgentDialog.qml:42
+msgid "this user agent name is already taken"
+msgstr "Dieser User Agent Name ist bereits vergeben"
+
+#: src/app/EditCustomUserAgentDialog.qml:48
+msgid "Add the name for the user agent"
+msgstr "Fügen Sie den Namen für den User Agent hinzu"
+
+#: src/app/EditCustomUserAgentDialog.qml:54
+msgid "enter user agent string..."
+msgstr "Geben Sie die Bezeichnung des User Agent ein..."
+
+#: src/app/ErrorSheet.qml:42
+msgid "Certificate Error"
+msgstr "Zertifikatsfehler"
+
+#: src/app/ErrorSheet.qml:42
+msgid "Network Error"
+msgstr "Netzwerkfehler"
+
+#. TRANSLATORS: %1 refers to the URL of the current page
+#: src/app/ErrorSheet.qml:49
+#, qt-format
+msgid "It appears you are having trouble viewing: %1."
+msgstr "Anscheinend gibt es Probleme beim Anzeigen: %1."
+
+#: src/app/ErrorSheet.qml:56
+#, qt-format
+msgid "Error: %1"
+msgstr "Fehler: %1"
+
+#: src/app/ErrorSheet.qml:62 src/app/InvalidCertificateErrorSheet.qml:173
+msgid "Back to safety"
+msgstr "Zurück zu sicherer Internetseite"
+
+#: src/app/ErrorSheet.qml:70
+msgid "Please check your network settings and try refreshing the page."
+msgstr ""
+"Bitte überprüfen Sie Ihre Netzwerkeinstellungen und versuchen Sie, die Seite "
+"neu zu laden."
+
+#: src/app/ErrorSheet.qml:77
+msgid "Refresh page"
+msgstr "Seite neu laden"
+
+#: src/app/GeolocationPermissionRequest.qml:29
+msgid "Permission Request"
+msgstr "Zugriffsanfrage"
+
+#: src/app/GeolocationPermissionRequest.qml:30
+msgid "This page wants to know your device’s location."
+msgstr "Diese Seite möchte Ihren Standort erfahren."
+
+#: src/app/GeolocationPermissionRequest.qml:57
+msgid "Deny"
+msgstr "Verbieten"
+
+#. TRANSLATORS: %1 refers to the URL of the current website and %2 is a string that the website sends with more information about the authentication challenge (technically called "realm")
+#: src/app/HttpAuthenticationDialog.qml:27
+#, qt-format
+msgid "The website at %1 requires authentication. The website says \"%2\""
+msgstr ""
+"Die Webseite unter %1 erfordert eine Authentifizierung. Die Webseite meldet "
+"\"%2\""
+
+#: src/app/InvalidCertificateErrorSheet.qml:55
+msgid "This site security certificate is not trusted.\n"
+msgstr "Das Sicherheitszertifikat dieser Seite ist nicht vertrauenswürdig.\n"
+
+#: src/app/InvalidCertificateErrorSheet.qml:63
+msgid "Learn more"
+msgstr "Mehr erfahren"
+
+#. TRANSLATORS: %1 refers to the SSL certificate's serial number
+#: src/app/InvalidCertificateErrorSheet.qml:87
+#, qt-format
+msgid ""
+"Serial number:\n"
+"%1"
+msgstr ""
+"Seriennummer:\n"
+"%1"
+
+#. TRANSLATORS: %1 refers to the SSL certificate's subject display name
+#: src/app/InvalidCertificateErrorSheet.qml:94
+#, qt-format
+msgid ""
+"Subject:\n"
+"%1"
+msgstr ""
+"Betreff:\n"
+"%1"
+
+#. TRANSLATORS: %1 refers to the SSL certificate's subject's address
+#: src/app/InvalidCertificateErrorSheet.qml:102
+#, qt-format
+msgid ""
+"Subject address:\n"
+"%1"
+msgstr ""
+"Betreffadresse:\n"
+"%1"
+
+#. TRANSLATORS: %1 refers to the SSL certificate's issuer display name
+#: src/app/InvalidCertificateErrorSheet.qml:113
+#, qt-format
+msgid ""
+"Issuer:\n"
+"%1"
+msgstr ""
+"Herausgeber:\n"
+"%1"
+
+#. TRANSLATORS: %1 refers to the SSL certificate's issuer's address
+#: src/app/InvalidCertificateErrorSheet.qml:121
+#, qt-format
+msgid ""
+"Issuer address:\n"
+"%1"
+msgstr ""
+"Herausgeberadresse:\n"
+"%1"
+
+#. TRANSLATORS: %1 refers to the SSL certificate's start date
+#: src/app/InvalidCertificateErrorSheet.qml:132
+#, qt-format
+msgid ""
+"Valid from:\n"
+"%1"
+msgstr ""
+"Gültig seit:\n"
+"%1"
+
+#. TRANSLATORS: %1 refers to the SSL certificate's expiry date
+#: src/app/InvalidCertificateErrorSheet.qml:139
+#, qt-format
+msgid ""
+"Valid until:\n"
+"%1"
+msgstr ""
+"Gültig bis:\n"
+"%1"
+
+#. TRANSLATORS: %1 refers to the SSL certificate's SHA1 fingerprint
+#: src/app/InvalidCertificateErrorSheet.qml:146
+#, qt-format
+msgid ""
+"Fingerprint (SHA1):\n"
+"%1"
+msgstr ""
+"Fingerabdruck (SHA1):\n"
+"%1"
+
+#: src/app/InvalidCertificateErrorSheet.qml:153
+msgid ""
+"You should not proceed, especially if you have never seen this warning "
+"before for this site."
+msgstr ""
+"Sie sollten nicht fortfahren, besonders wenn Sie diese Warnung noch nie für "
+"diese Seite gesehen haben."
+
+#: src/app/MediaAccessDialog.qml:39
+msgid "Permission"
+msgstr "Berechtigung"
+
+#: src/app/MediaAccessDialog.qml:46
+msgid "Allow this domain to access your camera and microphone?"
+msgstr "Dieser Domain den Zugriff zur Kamera und Mikrofon erlauben?"
+
+#: src/app/MediaAccessDialog.qml:47
+msgid "Allow this domain to access your camera?"
+msgstr "Dieser Domain den Zugriff zur Kamera erlauben?"
+
+#: src/app/MediaAccessDialog.qml:48
+msgid "Allow this domain to access your microphone?"
+msgstr "Dieser Domain den Zugriff zum Mikrofon erlauben?"
+
+#: src/app/MediaAccessDialog.qml:77
+msgid "Yes"
+msgstr "Ja"
+
+#: src/app/MediaAccessDialog.qml:85
+msgid "No"
+msgstr "Nein"
+
+#: src/app/PromptDialog.qml:25
+msgid "JavaScript Prompt"
+msgstr "JavaScript-Meldung"
+
+#: src/app/ProxyAuthenticationDialog.qml:22
+msgid "Proxy authentication required."
+msgstr "Proxy-Legitimierung benötigt."
+
+#. TRANSLATORS: %1 refers to the proxy address, %2 refers to the proxy port
+#: src/app/ProxyAuthenticationDialog.qml:24
+#, qt-format
+msgid "The website %1:%2 requires authentication."
+msgstr "Die Internetseite %1:%2 erfordert eine Legitimierung."
+
+#: src/app/SavePageDialog.qml:24
+msgid "Save page as HTML / PDF"
+msgstr "Seite als HTML / PDF speichern"
+
+#: src/app/SavePageDialog.qml:41
+msgid "No save actions are available"
+msgstr "Es sind keine Speichern-Funktionen verfügbar"
+
+#: src/app/SavePageDialog.qml:46
+msgid "Save as HTML"
+msgstr "Als HTML speichern"
+
+#: src/app/SavePageDialog.qml:54
+#: src/app/webbrowser/ContentDownloadDialog.qml:102
+msgid "Download"
+msgstr "Herunterladen"
+
+#: src/app/SavePageDialog.qml:64
+msgid "Save as PDF"
+msgstr "Als PDF speichern"
+
+#: src/app/SimpleDownloadDelegate.qml:128
+msgid "Remove from List"
+msgstr "Aus der Liste entfernen"
+
+#: src/app/webbrowser/AddressBar.qml:287
+msgid "find in page"
+msgstr "Suche in Seite"
+
+#: src/app/webbrowser/AddressBar.qml:288
+msgid "search or enter an address"
+msgstr "Suchen oder eine Adresse eingeben"
+
+#: src/app/webbrowser/AddressBar.qml:440
+msgid "Paste and Go"
+msgstr "Einfügen und los"
+
+#: src/app/webbrowser/BookmarkOptions.qml:66
+msgid "Bookmark Added"
+msgstr "Lesezeichen hinzugefügt"
+
+#. TRANSLATORS: Field where the title of bookmarked URL can be changed
+#: src/app/webbrowser/BookmarkOptions.qml:71
+msgid "Name"
+msgstr "Name"
+
+#. TRANSLATORS: Field to choose the folder where bookmarked URL will be saved in
+#: src/app/webbrowser/BookmarkOptions.qml:89
+msgid "Save in"
+msgstr "Speichern unter"
+
+#: src/app/webbrowser/BookmarkOptions.qml:96
+#: src/app/webbrowser/BookmarksFoldersView.qml:133
+#: src/app/webbrowser/BookmarksFoldersViewWide.qml:105
+msgid "All Bookmarks"
+msgstr "Alle Lesezeichen"
+
+#: src/app/webbrowser/BookmarkOptions.qml:114
+#: src/app/webbrowser/BookmarkOptions.qml:154
+msgid "New Folder"
+msgstr "Neuer Ordner"
+
+#: src/app/webbrowser/BookmarkOptions.qml:136
+msgid "Create new folder"
+msgstr "Neuen Ordner erstellen"
+
+#: src/app/webbrowser/BookmarkOptions.qml:164
+#: src/app/webbrowser/SettingsPage.qml:550 src/app/ZoomControls.qml:82
+msgid "Save"
+msgstr "Speichern"
+
+#: src/app/webbrowser/BookmarksFoldersView.qml:191
+#: src/app/webbrowser/BookmarksFoldersViewWide.qml:148
+#: src/app/webbrowser/NewTabView.qml:252 src/app/webbrowser/SettingsPage.qml:90
+#: src/app/webbrowser/SettingsPage.qml:486
+msgid "Homepage"
+msgstr "Startseite"
+
+#: src/app/webbrowser/BookmarksView.qml:33
+#: src/app/webbrowser/BookmarksViewWide.qml:33
+#: src/app/webbrowser/Browser.qml:819 src/app/webbrowser/NewTabView.qml:130
+#: src/app/webbrowser/NewTabViewWide.qml:139
+msgid "Bookmarks"
+msgstr "Lesezeichen"
+
+#: src/app/webbrowser/Browser.qml:230
+#: src/app/webcontainer/WebViewImplOxide.qml:302
+msgid "Blocked domain"
+msgstr "Blockierte Domain"
+
+#: src/app/webbrowser/Browser.qml:231
+#: src/app/webcontainer/WebViewImplOxide.qml:303
+#, qt-format
+msgid "Blocked navigation request to domain %1."
+msgstr "Blockierte Navigationsanforderung an die Domäne %1."
+
+#: src/app/webbrowser/Browser.qml:257
+#: src/app/webcontainer/WebViewImplOxide.qml:329
+msgid "Whitelisted domain"
+msgstr "Whitelisted Domain"
+
+#: src/app/webbrowser/Browser.qml:258
+#, qt-format
+msgid ""
+"domain %1 is now whitelisted, it will be active on the next page reload."
+msgstr ""
+"Domain %1 ist nun auf der Whitelist, sie wird beim Neuladen der nächsten "
+"Seite aktiv sein."
+
+#: src/app/webbrowser/Browser.qml:648
+msgid "Done"
+msgstr "Fertig"
+
+#: src/app/webbrowser/Browser.qml:673
+msgid "Reopen Tab"
+msgstr "Reiter neu öffnen"
+
+#: src/app/webbrowser/Browser.qml:799
+msgid "New window"
+msgstr "Neues Fenster"
+
+#: src/app/webbrowser/Browser.qml:805
+msgid "New private window"
+msgstr "Neues privates Fenster"
+
+#: src/app/webbrowser/Browser.qml:825 src/app/webbrowser/HistoryView.qml:31
+#: src/app/webbrowser/HistoryViewWide.qml:36
+msgid "History"
+msgstr "Verlauf"
+
+#: src/app/webbrowser/Browser.qml:845 src/app/webbrowser/SettingsPage.qml:45
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: src/app/webbrowser/Browser.qml:851
+msgid "View source"
+msgstr "Quelltext anzeigen"
+
+#: src/app/webbrowser/Browser.qml:864
+msgid "Save / Print to PDF"
+msgstr "Als PDF speichern/drucken"
+
+#: src/app/webbrowser/Browser.qml:885 src/app/WebViewImpl.qml:690
+msgid "Zoom"
+msgstr "Zoom"
+
+#: src/app/webbrowser/Browser.qml:892 src/app/webbrowser/SettingsPage.qml:140
+msgid "Set Desktop mode"
+msgstr "Desktop-Modus einstellen"
+
+#. TRANSLATORS: %1 refers to the current number of tabs opened
+#: src/app/webbrowser/Browser.qml:1092 src/app/webbrowser/Browser.qml:1130
+#, qt-format
+msgid "(%1)"
+msgstr "(%1)"
+
+#: src/app/webbrowser/Browser.qml:1970
+msgid "the file is already in the downloads folder."
+msgstr "die Datei befindet sich bereits im Downloads-Ordner."
+
+#: src/app/webbrowser/ContentDownloadDialog.qml:83
+msgid ""
+"Choose an application to open this file or add it to the downloads folder."
+msgstr ""
+"Anwendung zum Öffnen der Datei auswählen oder im Download-Ordner speichern."
+
+#: src/app/webbrowser/ContentDownloadDialog.qml:89
+msgid "Choose an application"
+msgstr "Eine Anwendung auswählen"
+
+#: src/app/webbrowser/ExpandedHistoryView.qml:135
+#, qt-format
+msgid "%1 page"
+msgid_plural "%1 pages"
+msgstr[0] "%1 Seite"
+msgstr[1] "%1 Seiten"
+
+#: src/app/webbrowser/HistorySectionDelegate.qml:26
+msgid "Last Visited"
+msgstr "Zuletzt besucht"
+
+#: src/app/webbrowser/HistorySectionDelegate.qml:48
+#: src/app/webbrowser/HistoryViewWide.qml:252
+msgid "Yesterday"
+msgstr "Gestern"
+
+#: src/app/webbrowser/HistoryViewWide.qml:161
+msgid "search history"
+msgstr "Verlauf durchsuchen"
+
+#: src/app/webbrowser/HistoryViewWide.qml:236
+msgid "All History"
+msgstr "Vollständiger Verlauf"
+
+#: src/app/webbrowser/HistoryViewWide.qml:250
+#: src/app/webbrowser/HistoryViewWide.qml:337
+msgid "Today"
+msgstr "Heute"
+
+#. TRANSLATORS: %1 refers to the current page’s title
+#: src/app/webbrowser/morph-tor-browser.qml:108
+#: src/app/webcontainer/webapp-container.qml:76
+#, qt-format
+msgid "%1 - Morph Web Browser"
+msgstr "%1 - Morph Web-Browser"
+
+#: src/app/webbrowser/NewPrivateTabView.qml:41
+msgid "This is a private tab"
+msgstr "Dies ist ein privater Reiter"
+
+#: src/app/webbrowser/NewPrivateTabView.qml:56
+msgid ""
+"Pages that you view in this tab won't appear in your browser history.\n"
+"Bookmarks you create will be preserved, however."
+msgstr ""
+"Seiten, die Sie in diesem Reiter ansehen, erscheinen nicht in Ihrem Browser-"
+"Verlauf.\n"
+"Lesezeichen, die Sie anlegen, werden jedoch beibehalten."
+
+#: src/app/webbrowser/NewTabView.qml:142
+msgid "Less"
+msgstr "Weniger"
+
+#: src/app/webbrowser/NewTabView.qml:142
+msgid "More"
+msgstr "Mehr"
+
+#: src/app/webbrowser/NewTabView.qml:326
+#: src/app/webbrowser/NewTabViewWide.qml:138
+msgid "Top sites"
+msgstr "Beliebte Seiten"
+
+#: src/app/webbrowser/NewTabView.qml:357
+msgid "You haven't visited any site yet"
+msgstr "Sie haben bisher noch keine Seite besucht"
+
+#: src/app/webbrowser/SadTab.qml:47
+msgid "The rendering process has been closed for this tab."
+msgstr "Der Ladeprozess wurde für diesen Reiter abgebrochen."
+
+#: src/app/webbrowser/SadTab.qml:60
+#, qt-format
+msgid "Something went wrong while displaying %1."
+msgstr "Etwas ist beim Anzeigen von %1 schiefgegangen."
+
+#: src/app/webbrowser/SadTab.qml:70
+msgid "Close tab"
+msgstr "Reiter schließen"
+
+#: src/app/webbrowser/SecurityCertificatePopover.qml:70
+msgid "This site has insecure content"
+msgstr "Diese Seite enthält unsichere Inhalte"
+
+#: src/app/webbrowser/SecurityCertificatePopover.qml:71
+msgid "Identity Not Verified"
+msgstr "Identität nicht verifiziert"
+
+#: src/app/webbrowser/SecurityCertificatePopover.qml:79
+msgid "The identity of this website has not been verified."
+msgstr "Die Identität dieser Website wurde nicht verifiziert."
+
+#: src/app/webbrowser/SecurityCertificatePopover.qml:109
+#, qt-format
+msgid "You are connected to %1 via HTTPS. The certificate is valid."
+msgstr "Sie sind über HTTPS mit %1 verbunden. Das Zertifikat ist gültig."
+
+#: src/app/webbrowser/SettingsDeviceSelector.qml:42
+msgid "Default"
+msgstr "Standard"
+
+#: src/app/webbrowser/SettingsPage.qml:74
+#: src/app/webbrowser/SettingsPage.qml:277
+msgid "Search engine"
+msgstr "Suchmaschine"
+
+#: src/app/webbrowser/SettingsPage.qml:91
+#: src/app/webbrowser/SettingsPage.qml:504
+msgid "New Tab Page"
+msgstr "Neue Reiter Seite"
+
+#: src/app/webbrowser/SettingsPage.qml:119
+msgid "Restore previous session at startup"
+msgstr "Vorige Sitzung beim Start wiederherstellen"
+
+#: src/app/webbrowser/SettingsPage.qml:120
+msgid "not available because of startup in private mode"
+msgstr "nicht verfügbar da im privaten Modus gestartet"
+
+#: src/app/webbrowser/SettingsPage.qml:159
+#: src/app/webcontainer/WebappSettingsPage.qml:58
+msgid "Automatic fit to width"
+msgstr "Automatisch an Breite anpassen"
+
+#: src/app/webbrowser/SettingsPage.qml:160
+#: src/app/webcontainer/WebappSettingsPage.qml:59
+msgid "Adjusts the width of the website to the window"
+msgstr "Passt die breite der Webseite an das Fenster an"
+
+#: src/app/webbrowser/SettingsPage.qml:179
+#: src/app/webcontainer/WebappSettingsPage.qml:78
+msgid "Default Zoom"
+msgstr "Standard-Zoom"
+
+#: src/app/webbrowser/SettingsPage.qml:218
+#: src/app/webcontainer/WebappSettingsPage.qml:117
+msgid "Load Images"
+msgstr "Bilder laden"
+
+#: src/app/webbrowser/SettingsPage.qml:219
+#: src/app/webcontainer/WebappSettingsPage.qml:118
+msgid "Automatically load images on web pages"
+msgstr "Bilder auf Internetseiten automatisch laden"
+
+#: src/app/webbrowser/SettingsPage.qml:238
+#: src/app/webbrowser/SettingsPage.qml:320
+#: src/app/webcontainer/WebappSettingsPage.qml:151
+#: src/app/webcontainer/WebappSettingsPage.qml:192
+msgid "Privacy & permissions"
+msgstr "Datenschutz & Zugriffsrechte"
+
+#: src/app/webbrowser/SettingsPage.qml:249
+msgid "Reset browser settings"
+msgstr "Browsereinstellungen zurücksetzen"
+
+#: src/app/webbrowser/SettingsPage.qml:334
+msgid "Start in private mode"
+msgstr "Im privaten Modus starten"
+
+#: src/app/webbrowser/SettingsPage.qml:358
+#: src/app/webcontainer/WebappSettingsPage.qml:206
+msgid "Only allow browsing to whitelisted websites"
+msgstr "Nur das Surfen auf Whitelist-Webseiten erlauben"
+
+#: src/app/webbrowser/SettingsPage.qml:398
+#: src/app/webbrowser/SettingsPage.qml:589
+msgid "Camera & microphone"
+msgstr "Kamera & Mikrofon"
+
+#: src/app/webbrowser/SettingsPage.qml:407
+msgid "Clear browsing history"
+msgstr "Browserverlauf löschen"
+
+#: src/app/webbrowser/SettingsPage.qml:411
+msgid "Clear browsing history?"
+msgstr "Browserverlauf löschen?"
+
+#: src/app/webbrowser/SettingsPage.qml:419
+#: src/app/webcontainer/WebappSettingsPage.qml:247
+msgid "Clear cache"
+msgstr "Cache leeren"
+
+#: src/app/webbrowser/SettingsPage.qml:422
+#: src/app/webcontainer/WebappSettingsPage.qml:250
+msgid "Clear cache?"
+msgstr "Cache leeren?"
+
+#: src/app/webbrowser/SettingsPage.qml:430
+#: src/app/webcontainer/WebappSettingsPage.qml:258
+msgid "Clear all cookies"
+msgstr "Alle Cookies löschen"
+
+#: src/app/webbrowser/SettingsPage.qml:433
+#: src/app/webcontainer/WebappSettingsPage.qml:261
+msgid "Clear all Cookies?"
+msgstr "Alle Cookies löschen?"
+
+#: src/app/webbrowser/SettingsPage.qml:516
+msgid "Custom homepage"
+msgstr "Benutzerdefinierte Startseite"
+
+#: src/app/webbrowser/SettingsPage.qml:601
+msgid "Microphone"
+msgstr "Mikrofon"
+
+#: src/app/webbrowser/SettingsPage.qml:622
+msgid "Camera"
+msgstr "Kamera"
+
+#: src/app/webbrowser/TabComponent.qml:282
+msgid "Swipe Up To Exit Full Screen"
+msgstr "Nach oben wischen, um das Vollbild zu beenden"
+
+#: src/app/webbrowser/TabComponent.qml:283
+msgid "Press ESC To Exit Full Screen"
+msgstr "ESC drücken, um das Vollbild zu beenden"
+
+#: src/app/webbrowser/TabPreview.qml:113
+msgid "Tap to view"
+msgstr "Tippen zum Betrachten"
+
+#: src/app/webbrowser/TabsBar.qml:64 src/app/webbrowser/TabsList.qml:100
+msgid "New tab"
+msgstr "Neuer Tab"
+
+#: src/app/webbrowser/TabsBar.qml:99
+msgid "Move to New Window"
+msgstr "Zum neuen Fenster wechseln"
+
+#: src/app/webbrowser/TabsBar.qml:116
+msgid "Close Tab"
+msgstr "Reiter schließen"
+
+#: src/app/webbrowser/UrlPreviewDelegate.qml:138
+msgid "Remove"
+msgstr "Entfernen"
+
+#: src/app/webcontainer/AccountChooserDialog.qml:62
+msgid ""
+"No accounts have been linked to this webapp; press the item below to add an "
+"account."
+msgstr ""
+"Kein Konto wurde mit diesem »Webapp« verbunden; bitte unten auf den Knopf "
+"drücken, um ein Konto hinzuzufügen."
+
+#: src/app/webcontainer/AccountChooserDialog.qml:78
+msgid "Add account"
+msgstr "Konto hinzufügen"
+
+#: src/app/webcontainer/AccountChooserDialog.qml:87
+msgid "Don't use an account"
+msgstr "Kein Konto verwenden"
+
+#: src/app/webcontainer/AccountErrorScreen.qml:39
+msgid "Account error"
+msgstr "Kontofehler"
+
+#: src/app/webcontainer/AccountErrorScreen.qml:50
+msgid "Close"
+msgstr "Schließen"
+
+#: src/app/webcontainer/AccountsLogic.qml:63
+msgid ""
+"Account window could not be opened. You can only create one account at a "
+"time; please try again after closing all other account windows."
+msgstr ""
+"Das Kontofenster konnte nicht geöffnet werden. Sie können nur ein Konto "
+"gleichzeitig erstellen; bitte versuchen Sie es erneut, nachdem Sie alle "
+"anderen Kontofenster geschlossen haben."
+
+#: src/app/webcontainer/AccountsLogic.qml:214
+msgid "Authentication failed"
+msgstr "Legitimierung fehlgeschlagen"
+
+#. TRANSLATORS: %1 refers to the application name, %2 refers to the account provider
+#: src/app/webcontainer/AccountsSplashScreen.qml:45
+#, qt-format
+msgid "<b>%1</b> needs to access your %2 online account."
+msgstr "<b>%1</b> muss auf Ihre %2-Internetkonto zugreifen."
+
+#. TRANSLATORS: %1 refers to the application name, %2 refers to the account provider
+#: src/app/webcontainer/AccountsSplashScreen.qml:55
+#, qt-format
+msgid "<b>%1</b> would like to access your %2 online account."
+msgstr "<b>%1</b> möchte auf Ihre %2-Internetkonto zugreifen."
+
+#: src/app/webcontainer/AccountsSplashScreen.qml:64
+msgid ""
+"Choose an account now, or skip this step and choose an online account later."
+msgstr ""
+"Bitte jetzt ein Konto auswählen oder diesen Schritt überspringen und später "
+"ein Internetkonto auswählen."
+
+#: src/app/webcontainer/AccountsSplashScreen.qml:77
+msgid "Close the app"
+msgstr "Anwendung schließen"
+
+#: src/app/webcontainer/AccountsSplashScreen.qml:77
+msgid "Skip"
+msgstr "Überspringen"
+
+#: src/app/webcontainer/AccountsSplashScreen.qml:84
+msgid "Choose account"
+msgstr "Konto wählen"
+
+#: src/app/webcontainer/SadPage.qml:45
+msgid "Oops, something went wrong."
+msgstr "Hoppla, etwas ist schiefgelaufen."
+
+#: src/app/webcontainer/WebappSettingsPage.qml:38
+msgid "WebappContainer Settings"
+msgstr "WebappContainer-Einstellungen"
+
+#: src/app/webcontainer/WebappSettingsPage.qml:163
+msgid "Reset webapp settings"
+msgstr "Webapp-Einstellungen zurücksetzen"
+
+#: src/app/webcontainer/WebViewImplOxide.qml:330
+#, qt-format
+msgid "domain %1 is now whitelisted, please reload the page."
+msgstr "Domain %1 ist nun in der Whitelist. Bitte die Seite neu laden."
+
+#: src/app/ZoomControls.qml:61
+msgid "Zoom Out"
+msgstr "Verkleinern"
+
+#: src/app/ZoomControls.qml:68
+msgid "Reset"
+msgstr "Zurücksetzen"
+
+#: src/app/ZoomControls.qml:68
+msgid "fit"
+msgstr "einpassen"
+
+#: src/app/ZoomControls.qml:75
+msgid "Zoom In"
+msgstr "Vergrößern"
+
+#: src/app/ZoomControls.qml:100
+msgid "Current Zoom"
+msgstr "Aktueller Zoom"
+
+#: src/app/ZoomControls.qml:101
+msgid "domain"
+msgstr "Domain"
+
+#: src/app/ZoomControls.qml:101
+msgid "default"
+msgstr "Standard"
+
+#: src/app/ZoomControls.qml:101
+msgid "auto-fit"
+msgstr "Auto-Breite"
+
+#: src/app/ZoomControls.qml:190
+msgid "Save Zoom"
+msgstr "Zoomfaktor speichern"
+
+#: src/app/ZoomControls.qml:192
+msgid "the current web app"
+msgstr "Die aktuelle Web-App"
+
+#: src/app/ZoomControls.qml:195
+#, qt-format
+msgid ""
+"The current zoom level (%1%) can be saved in %2 either for the current "
+"domain or as the default zoom level."
+msgstr ""
+"Der aktuelle Zoomfaktor (%1 %) kann in %2 gespeichert werden, entweder für "
+"die aktuelle Domain oder als Standardzoomfaktor."
+
+#: src/app/ZoomControls.qml:197
+#, qt-format
+msgid "The current zoom level (%1%) can be saved in %2 for the current domain."
+msgstr ""
+"Der aktuelle Zoomfaktor (%1 %) kann in %2 gespeichert werden für die "
+"aktuelle Domain."
+
+#: src/app/ZoomControls.qml:199
+#, qt-format
+msgid ""
+"The current zoom level (%1%) can be saved in %2 as the default zoom level."
+msgstr ""
+"Der aktuelle Zoomfaktor (%1 %) kann in %2 gespeichert werden als "
+"Standardzoomfaktor."
+
+#: src/app/ZoomControls.qml:206
+msgid "Save for domain"
+msgstr "Speichern für Domain"
+
+#: src/app/ZoomControls.qml:219
+msgid "Save as default"
+msgstr "Als Standard speichern"
+
+#~ msgid "/usr/share/morph-tor-browser/morph-tor-browser.svg"
+#~ msgstr "/usr/share/morph-tor-browser/morph-tor-browser.svg"
+
+#, qt-format
+#~ msgid ""
+#~ "The site '%1' is trying to open the following URL with a custom scheme:"
+#~ msgstr ""
+#~ "Die Seite '%1' versuchte die folgende URL mit einem benutzerdefiniertem "
+#~ "Schema zu öffnen:"
+
+#~ msgid ""
+#~ "This will try to dispatch this url to a system app if possible. Do you "
+#~ "want to proceed?"
+#~ msgstr ""
+#~ "Dies wird versuchen diese URL nach Möglichkeit an eine System-App zu "
+#~ "senden. Möchten Sie fortfahren?"
+
+#~ msgid "Pause"
+#~ msgstr "Pause"
+
+#~ msgid "Resume"
+#~ msgstr "Fortsetzen"
+
+#~ msgid "none"
+#~ msgstr "keiner"
+
+#, qt-format
+#~ msgid ""
+#~ "domain zoom (currently %1 and can be removed with reset button or from "
+#~ "domain specific settings in privacy settings)"
+#~ msgstr ""
+#~ "Domain-Zoom (aktuell %1 und kann mit dem Zurücksetzen-Button oder über "
+#~ "die domainspezifischen Einstellungen in den Privatsphäreeinstellungen "
+#~ "gelöscht werden)"
+
+#~ msgid " and resets domain zoom"
+#~ msgstr " und setzt Domain-Zoom zurück"
+
+#, qt-format
+#~ msgid "default zoom (currently %1%, can be changed from settings menu%2)"
+#~ msgstr "Standardzoomfaktor (aktuell %1, einstellbar im Einstellungsmenü %2)"
+
+#~ msgid "or"
+#~ msgstr "oder"
+
+#~ msgid "Save as HTML / PDF"
+#~ msgstr "Als HTML / PDF speichern"
+
+#~ msgid ""
+#~ "Set current zoom as default zoom for %1 ? (You can change it in the "
+#~ "settings menu)"
+#~ msgstr ""
+#~ "Setzt den aktuellen Zoom als Standardzoom für %1? (Es kann im "
+#~ "Einstellungsmenü geändert werden)"
+
+#~ msgid ""
+#~ "You attempted to reach %1 but the server presented a security certificate "
+#~ "which does not match the identity of the site."
+#~ msgstr ""
+#~ "Sie haben versucht %1 zu erreichen, aber der Server hat ein "
+#~ "Sicherheitszertifikat vorgelegt, welches nicht zur Identität dieser Seite "
+#~ "passt."
+
+#~ msgid ""
+#~ "You attempted to reach %1 but the server presented a security certificate "
+#~ "which has expired."
+#~ msgstr ""
+#~ "Sie haben versucht %1 zu erreichen, aber der Server hat ein abgelaufenes "
+#~ "Sicherheitszertifikat vorgelegt."
+
+#~ msgid ""
+#~ "You attempted to reach %1 but the server presented a security certificate "
+#~ "which contains invalid dates."
+#~ msgstr ""
+#~ "Sie haben versucht %1 zu erreichen, aber der Server hat ein "
+#~ "Sicherheitszertifikat vorgelegt, welches nicht gültige Daten enthält."
+
+#~ msgid ""
+#~ "You attempted to reach %1 but the server presented a security certificate "
+#~ "issued by an entity that is not trusted."
+#~ msgstr ""
+#~ "Sie haben versucht %1 zu erreichen, aber der Server hat ein "
+#~ "Sicherheitszertifikat vorgelegt, dessen Herausgeber nicht vertraut wird."
+
+#~ msgid ""
+#~ "You attempted to reach %1 but the server presented a security certificate "
+#~ "that has been revoked."
+#~ msgstr ""
+#~ "Sie haben versucht %1 zu erreichen, aber der Server hat ein gesperrtes "
+#~ "Sicherheitszertifikat vorgelegt."
+
+#~ msgid ""
+#~ "You attempted to reach %1 but the server presented an invalid security "
+#~ "certificate."
+#~ msgstr ""
+#~ "Sie haben versucht %1 zu erreichen, aber der Server hat ein ungültiges "
+#~ "Sicherheitszertifikat vorgelegt."
+
+#~ msgid ""
+#~ "You attempted to reach %1 but the server presented an insecure security "
+#~ "certificate."
+#~ msgstr ""
+#~ "Sie haben versucht %1 zu erreichen, aber der Server hat ein unsicheres "
+#~ "Sicherheitszertifikat vorgelegt."
+
+#~ msgid ""
+#~ "This site security certificate is not trusted\n"
+#~ "You attempted to reach %1 but the server presented a security certificate "
+#~ "which failed our security checks for an unknown reason."
+#~ msgstr ""
+#~ "Das Sicherheitszertifikat dieser Seite ist nicht vertrauenswürdig\n"
+#~ "Sie haben versucht %1 zu erreichen, aber der Server hat ein "
+#~ "Sicherheitszertifikat vorgelegt, welches unsere Sicherheitsüberprüfungen "
+#~ "aus einem unbekannten Grund nicht bestand."
+
+#~ msgid "%1 (embedded in %2)"
+#~ msgstr "%1 (eingebettet in %2)"
+
+#~ msgid "%1/%2"
+#~ msgstr "%1/%2"
+
+#~ msgid ""
+#~ "The system is low on memory and can't display this webpage. Try closing "
+#~ "unneeded tabs and reloading."
+#~ msgstr ""
+#~ "Das System hat wenig Speicher zur Verfügung und kann die Internetseite "
+#~ "nicht anzeigen. Versuchen Sie nicht benötigte Reiter zu schließen und "
+#~ "erneut zu laden."
+
+#~ msgid "Server certificate does not match the identity of the site."
+#~ msgstr ""
+#~ "Das Server-Zertifikat stimmt nicht mit der Identität der Seite überein."
+
+#~ msgid "Server certificate has expired."
+#~ msgstr "Das Server-Zertifikat ist abgelaufen."
+
+#~ msgid "Server certificate contains invalid dates."
+#~ msgstr "Das Server-Zertifikat enthält ungültige Datumsangaben."
+
+#~ msgid "Server certificate is issued by an entity that is not trusted."
+#~ msgstr ""
+#~ "Das Server-Zertifikat wurde von einer Instanz ausgestellt, der nicht "
+#~ "vertraut wird."
+
+#~ msgid "Server certificate has been revoked."
+#~ msgstr "Das Server-Zertifikat wurde für ungültig erklärt."
+
+#~ msgid "Server certificate is invalid."
+#~ msgstr "Das Server-Zertifikat ist ungültig."
+
+#~ msgid "Server certificate is insecure."
+#~ msgstr "Das Server-Zertifikat ist unsicher."
+
+#~ msgid "Server certificate failed our security checks for an unknown reason."
+#~ msgstr ""
+#~ "Das Server-Zertifikat hat unsere Sicherheitsprüfungen aus unbekannten "
+#~ "Gründen nicht bestanden."
+
+#~ msgid "You are connected to"
+#~ msgstr "Sie sind verbunden mit"
+
+#~ msgid "Which is run by"
+#~ msgstr "Was betrieben wird von"
+
+#~ msgid "Ubuntu Web Browser"
+#~ msgstr "Ubuntus Internet-Browser"
+
+#~ msgid ""
+#~ "Ubuntu suggests you check your network settings and try refreshing the "
+#~ "page."
+#~ msgstr ""
+#~ "Ubuntu empfiehlt, dass Sie die Netzwerkeinstellungen prüfen und "
+#~ "versuchen, die Seite neu zu laden."
+
+#~ msgid "Select an account"
+#~ msgstr "Konto auswählen"
+
+#~ msgid "Skip account creation step"
+#~ msgstr "Kontoerstellung überspringen"
+
+#~ msgid "see more"
+#~ msgstr "Mehr sehen"
+
+#~ msgid "see less"
+#~ msgstr "Weniger sehen"
+
+#~ msgid "Share…"
+#~ msgstr "Teilen …"
+
+#~ msgid "Delete all history?"
+#~ msgstr "Den ganzen Verlauf löschen?"
+
+#~ msgid "Add"
+#~ msgstr "Neu"
+
+#~ msgid "Please choose a file"
+#~ msgstr "Bitte eine Datei auswählen"
+
+#~ msgid "No local account found for "
+#~ msgstr "Keine lokales Konto gefunden für "
+
+#~ msgid "Open tabs"
+#~ msgstr "Offene Reiter"
+
+#~ msgid "Privacy"
+#~ msgstr "Datenschutz"
+
+#~ msgid "Going to public mode will close all private tabs"
+#~ msgstr "Das Wechseln zum öffentlichen Modus schließt alle privaten Reiter"
+
+#~ msgid "Private Mode"
+#~ msgstr "Privater Modus"
+
+#~ msgid "Allow opening new tabs in background"
+#~ msgstr "Öffnen von neuen Reitern im Hintergrund erlauben"
+
+#~ msgid "Open a New Private Window"
+#~ msgstr "Ein neues privates Fenster öffnen"
+
+#~ msgid "Open a New Window"
+#~ msgstr "Ein neues Fenster öffnen"

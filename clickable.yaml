@@ -1,0 +1,27 @@
+clickable_minimum_required: 7.7.1
+
+image_setup:
+  run:
+    - apt-get install apt-transport-https
+    - echo 'deb https://deb.torproject.org/torproject.org focal main' >> /etc/apt/sources.list
+    - wget https://deb.torproject.org/torproject.org/A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89.asc
+    - gpg --import A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89.asc
+    - gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | apt-key add -
+    - apt-get update
+    - apt-get install tor:arm64 -y
+
+builder: cmake
+build_args: -DCLICK_MODE=ON
+
+dependencies_target:
+- qtwebengine5-dev
+- libapparmor-dev
+
+dependencies_host:
+- xvfb
+
+install_bin:
+- /usr/bin/tor
+
+kill: morph-tor-browser
+framework: ubuntu-sdk-20.04

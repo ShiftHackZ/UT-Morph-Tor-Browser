@@ -1,0 +1,49 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+export DPKG_GENSYMBOLS_CHECK_LEVEL=4
+
+BUILDHOME=/tmp/home
+
+# Add migrations add-on when build on Ubuntu & original name is available.
+DH_MIGRATIONS = $(shell type dh_migrations >/dev/null 2>&1 && echo "--with migrations")
+
+%:
+	dh $@ $(DH_MIGRATIONS)
+
+apparmor:
+	aa-easyprof -m ./debian/morph-tor-browser-apparmor.manifest --no-verify | \
+	egrep -v '(# Click packages|CLICK_DIR)' | \
+	sed 's/@{APP_PKGNAME}_@{APP_APPNAME}_@{APP_VERSION}/@{APP_PKGNAME}/g' | \
+	sed 's#/run/shm/\.org\.chromium\.Chromium\.\*#/{dev,run}/shm/.org.chromium.Chromium.*#g' | \
+	egrep -v 'deny /run/udev/data/\*\* r,' | \
+	sed 's#^}$$#\n  /sys/class/ r,\n  /sys/class/input/ r,\n  /run/udev/data/** r,\n}#g' | \
+	egrep -v '^\s*deny /dev/ r,\s*$$' | \
+	sed 's#^\(\s*\)deny\(\s\+/{run,dev}/shm/pulse-shm\*\s\+w,\).*$$#\1owner\2#g' | \
+	sed 's#^}$$#\n  /dev/dri/ r,\n  /sys/devices/pci[0-9]*/**/config r,\n}#g' | \
+	sed 's#^}$$#\n  @{HOME}/@{XDG_DOWNLOAD_DIR}/** rwk,\n}#g' \
+	> ./debian/usr.bin.morph-tor-browser
+ifeq ($(DEB_BUILD_GNU_TYPE),$(DEB_HOST_GNU_TYPE))
+	apparmor_parser -QTK ./debian/usr.bin.morph-tor-browser
+endif
+
+override_dh_install: apparmor
+	dh_install
+
+override_dh_missing:
+	dh_missing --fail-missing
+
+override_dh_installdeb:
+	dh_apparmor --profile-name=usr.bin.morph-tor-browser -pmorph-tor-browser
+	dh_installdeb
+
+override_dh_clean:
+	dh_clean
+	rm -rf $(BUILDHOME)
+
+override_dh_auto_test:
+	mkdir -p $(BUILDHOME)
+	HOME=$(BUILDHOME) dh_auto_test --no-parallel -- ARGS+=-VV
