@@ -1,6 +1,6 @@
 # Morph Tor Browser
 
-A fork of Morph Browser.
+A fork of [Morph Browser](https://gitlab.com/ubports/development/core/morph-browser).
 
 Lightweight web browser tailored for Ubuntu Touch, based on the Qt WebEngine
 and using the Lomiri UI components.
