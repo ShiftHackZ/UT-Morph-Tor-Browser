@@ -5,6 +5,15 @@ A fork of [Morph Browser](https://gitlab.com/ubports/development/core/morph-brow
 Lightweight web browser tailored for Ubuntu Touch, based on the Qt WebEngine
 and using the Lomiri UI components.
 
+## Features
+
+- Bundles Tor binary that is launched in separate thread on Morph Browser launch.
+- Adds chromium engine flags to prevent WebRTC leak (browserleaks.com reports no WebRTC leak as for 06.09.2024 on Pixel 3a XL runnitng UT focal) 
+
+## Screenshots
+
+<img src="https://github.com/user-attachments/assets/a61aec4b-12af-4aab-9897-c319d9c36717" width="320" /><img src="https://github.com/user-attachments/assets/0c5073ef-99e0-4c36-81d8-d15be470eea8" width="320" />
+
 ## i18n: Translating Morph Browser into your Language
 
 You can easily contribute to the localization of this project (i.e. the
