@@ -12,6 +12,6 @@
             "urls": "@CMAKE_INSTALL_DATADIR@/url-dispatcher/urls/morph-tor-browser.url-dispatcher"
         }
     },
-    "version": "0.1",
+    "version": "0.1.1-alpha01",
     "maintainer": "ShiftHackZ"
 }
