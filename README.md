@@ -46,7 +46,7 @@ cmake -DCMAKE_TOOLCHAIN_FILE=cmake/ubuntu-arm-linux-gnueabihf.cmake .
 Use the [clickable](https://clickable-ut.dev/en/latest/) command line tool:
 
 ```sh
-clickable
+clickable clean && clickable build --arch=arm64
 ```
 
 ### Build with docker
